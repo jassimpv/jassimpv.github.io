@@ -1,0 +1,1203 @@
+[
+    {
+        "value": "auh:11005:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Zahiyah, Al Falah St / Shk. Zayed Bin Sultan St",
+        "to": "Al Kasir, King Salman Bin Abdulaziz Al Saud St / Marina Mall",
+        "busNum": "5",
+        "description": "City Bus 5"
+    },
+    {
+        "value": "auh:11007:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Zahiyah, Al Falah St / Shk. Zayed Bin Sultan St",
+        "to": "Al Kasir, King Salman Bin Abdulaziz Al Saud St / Marina Mall",
+        "busNum": "7",
+        "description": "City Bus 7"
+    },
+    {
+        "value": "auh:11008:P:H:5p1",
+        "routeName": "H",
+        "from": "Zayed Port, Al Doum St / Fish Market",
+        "to": "Al Bateen, Al Quffal St / Marina Al Bateen",
+        "busNum": "8",
+        "description": "City Bus 8"
+    },
+    {
+        "value": "auh:11009:P:H:5p1",
+        "routeName": "H",
+        "from": "Zayed Port, Cruise Terminal",
+        "to": "Al Kasir, King Salman Bin Abdulaziz Al Saud St / Marina Mall",
+        "busNum": "9",
+        "description": "City Bus 9"
+    },
+    {
+        "value": "auh:11011:P:H:5p1",
+        "routeName": "H",
+        "from": "Zayed Port, Al Yamyam St / 42 Abu Dhabi",
+        "to": "Al Kasir, King Salman Bin Abdulaziz Al Saud St / Marina Mall",
+        "busNum": "11",
+        "description": "City Bus 11"
+    },
+    {
+        "value": "auh:11023:P:H:5p1",
+        "routeName": "H",
+        "from": "Bawabat Abu Dhabi, Bawabat Abu Dhabi St / Al Maqta Mall",
+        "to": "Al Bateen, Al Bateen St / Sheikha Fatima Park",
+        "busNum": "23",
+        "description": "City Bus 23"
+    },
+    {
+        "value": "auh:11024:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Rawdah, Sheikh Zayed Grand Mosque",
+        "to": "Al Kasir, King Salman Bin Abdulaziz Al Saud St / Marina Mall",
+        "busNum": "24",
+        "description": "City Bus 24"
+    },
+    {
+        "value": "auh:11026:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Muntazah, Al Muntazah St / Khalifa Park",
+        "to": "Al Kasir, King Salman Bin Abdulaziz Al Saud St / Marina Mall",
+        "busNum": "26",
+        "description": "City Bus 26"
+    },
+    {
+        "value": "auh:11033:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Rawdah, Al Mu Atamarat St / ADNEC",
+        "to": "Al Bateen, Al Bateen St / Sheikha Fatima Park",
+        "busNum": "33",
+        "description": "City Bus 33"
+    },
+    {
+        "value": "auh:11034:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Rawdah, Al Qalaid St / National Central Research",
+        "to": "Al Ras Al Akhdar, Qasr Al Watan",
+        "busNum": "34",
+        "description": "City Bus 34"
+    },
+    {
+        "value": "auh:11040:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Muntazah, Al Sunbulah St / Al Muntazah South",
+        "to": "Jazeerat Al Maryah, Hamouda Bin Ali Al Dhaheri St / Al Maryah",
+        "busNum": "40",
+        "description": "City Bus 40"
+    },
+    {
+        "value": "auh:11041:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Rawdah, Al Mu Atamarat St / ADNEC",
+        "to": "Al Zahiyah, Al Meena St / Corniche Hospital 1",
+        "busNum": "41",
+        "description": "City Bus 41"
+    },
+    {
+        "value": "auh:11042:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Rawdah, Al Qalaid St / National Central Research",
+        "to": "Jazeerat Al Maryah, Hamouda Bin Ali Al Dhaheri St / Al Maryah",
+        "busNum": "42",
+        "description": "City Bus 42"
+    },
+    {
+        "value": "auh:11043:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Mushrif, Al Markib St / Al Mushrif Coop",
+        "to": "Al Zahiyah, Al Meena St / Corniche Hospital 2",
+        "busNum": "43",
+        "description": "City Bus 43"
+    },
+    {
+        "value": "auh:11044:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Muzoun, Al Nada St / Abu Dhabi Ladies Club",
+        "to": "Zayed Port, Cruise Terminal",
+        "busNum": "44",
+        "description": "City Bus 44"
+    },
+    {
+        "value": "auh:11045:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Nahyan, Abu Dhabi Bus Station",
+        "to": "Al Nahyan, Abu Dhabi Bus Station",
+        "busNum": "45",
+        "description": "City Bus 45"
+    },
+    {
+        "value": "auh:11054:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Rawdah, Saif Ghobash St  / Sheikh Zayed Grand Mosque",
+        "to": "Zayed Port, Al Doum St / Fish Market",
+        "busNum": "54",
+        "description": "City Bus 54"
+    },
+    {
+        "value": "auh:11055:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Muntazah, Al Sunbulah St / Al Muntazah South",
+        "to": "Al Zahiyah, Al Meena St / Corniche Hospital 2",
+        "busNum": "55",
+        "description": "City Bus 55"
+    },
+    {
+        "value": "auh:11056:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Muntazah, Al Muntazah St / Khalifa Park",
+        "to": "Zayed Port, Al Qibli St / New Mina Souq",
+        "busNum": "56",
+        "description": "City Bus 56"
+    },
+    {
+        "value": "auh:11063:P:H:5p1",
+        "routeName": "H",
+        "from": "Reem Island, Al Ghazal St / Reem Mall",
+        "to": "Al Kasir, King Salman Bin Abdulaziz Al Saud St / Marina Mall",
+        "busNum": "63",
+        "description": "City Bus 63"
+    },
+    {
+        "value": "auh:11065:P:H:5p1",
+        "routeName": "H",
+        "from": "Jazeerat Al Reem, Al Rayfah St / Al Reem City Of Lights",
+        "to": "Al Kasir, King Salman Bin Abdulaziz Al Saud St / Marina Mall",
+        "busNum": "65",
+        "description": "City Bus 65"
+    },
+    {
+        "value": "auh:11067:P:H:5p1",
+        "routeName": "H",
+        "from": "Jazeerat Al Reem, Al Muqarrab St / Al Reem Shams",
+        "to": "Al Kasir, King Salman Bin Abdulaziz Al Saud St / Marina Mall",
+        "busNum": "67",
+        "description": "City Bus 67"
+    },
+    {
+        "value": "auh:11069:P:H:5p1",
+        "routeName": "H",
+        "from": "Jazeerat Al Maryah, Hamouda Bin Ali Al Dhaheri St / Al Maryah",
+        "to": "Al Kasir, King Salman Bin Abdulaziz Al Saud St / Marina Mall",
+        "busNum": "69",
+        "description": "City Bus 69"
+    },
+    {
+        "value": "auh:11071:P:H:5p1",
+        "routeName": "H",
+        "from": "Jazeerat Al Reem, Al Muqarrab St / Al Reem Shams",
+        "to": "Al Kasir, King Salman Bin Abdulaziz Al Saud St / Marina Mall",
+        "busNum": "71",
+        "description": "City Bus 71"
+    },
+    {
+        "value": "auh:11073:P:H:5p1",
+        "routeName": "H",
+        "from": "Jazeerat Al Reem, Al Muqarrab St / Al Reem Shams",
+        "to": "Al Hudayriat, Bab Al Nojoum",
+        "busNum": "73",
+        "description": "City Bus 73"
+    },
+    {
+        "value": "auh:11094:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Rawdah, Al Majd St / Wahat Al Karamah",
+        "to": "Al Sadiyat, Jacques Chirac St / Mamsha Al Saadiyat",
+        "busNum": "94",
+        "description": "City Bus 94"
+    },
+    {
+        "value": "auh:12101:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Danah, Sultan Bin Zayed St / Capital Park",
+        "to": "Abu Dhabi Industrial City, Al Wazn St / Dalma Mall Main Entrance",
+        "busNum": "101",
+        "description": "Reg Bus 101"
+    },
+    {
+        "value": "auh:12102:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Danah, Sultan Bin Zayed St / Capital Park",
+        "to": "MBZ City, MBZ City Bus Station",
+        "busNum": "102",
+        "description": "Reg Bus 102"
+    },
+    {
+      "value": "auh:12103:P:H:5p1",
+      "routeName": "H",
+      "from": "Al Danah, Sultan Bin Zayed St / Capital Park",
+      "to": "MBZ City, Al Nasr St / ADVETI",
+      "busNum": "103",
+      "description": "Reg Bus 103"
+    },
+    {
+      "value": "auh:12110:P:H:5p1",
+      "routeName": "H",
+      "from": "Al Danah, Sultan Bin Zayed St / Capital Park",
+      "to": "Mussafah, Mohammed Bin Khalifa Al Kindi St / NPC",
+      "busNum": "110",
+      "description": "Reg Bus 110"
+    },
+    {
+      "value": "auh:12111:P:H:5p1",
+      "routeName": "H",
+      "from": "Al Danah, Sultan Bin Zayed St / Capital Park",
+      "to": "Mussafah, Al Mantaqah Al Sinaiyah St 1 / Tasheel",
+      "busNum": "111",
+      "description": "Reg Bus 111"
+    },
+    {
+      "value": "auh:12120:P:H:5p1",
+      "routeName": "H",
+      "from": "Al Sadiyat, Shati Al Sadiyat St / Saadiyat Public Beach",
+      "to": "MBZ City, Sultan Bin Mohammed Al Qubaisi St / Mazyad Mall",
+      "busNum": "120",
+      "description": "Reg Bus 120"
+    },
+    {
+      "value": "auh:12121:P:H:5p1",
+      "routeName": "H",
+      "from": "Al Sadiyat, Al Dhiba St / Hidd Al Saadiyat",
+      "to": "MBZ City, Sultan Bin Mohammed Al Qubaisi St / Mazyad Mall",
+      "busNum": "121",
+      "description": "Reg Bus 121"
+    },
+    {
+      "value": "auh:12125:P:H:5p1",
+      "routeName": "H",
+      "from": "Al Nahyan, Abu Dhabi Bus Station",
+      "to": "Al Nahyan, Abu Dhabi Bus Station",
+      "busNum": "125",
+      "description": "Reg Bus 125"
+    },
+    {
+      "value": "auh:12127:P:H:5p1",
+      "routeName": "H",
+      "from": "Al Nahyan, Abu Dhabi Bus Station",
+      "to": "Al Nahyan, Abu Dhabi Bus Station",
+      "busNum": "127",
+      "description": "Reg Bus 127"
+    },
+    {
+      "value": "auh:12155:P:H:5p1",
+      "routeName": "H",
+      "from": "Al Danah, Sultan Bin Zayed St / Capital Park",
+      "to": "Shakhbout City, Abdulrahman Bin Ali Al Mubarak St / ADNOC",
+      "busNum": "155",
+      "description": "Reg Bus 155"
+    },
+    {
+      "value": "auh:12160:P:H:5p1",
+      "routeName": "H",
+      "from": "Al Danah, Sultan Bin Zayed St / Capital Park",
+      "to": "Khalifa City, Theyab Bin Eissa St / Souq",
+      "busNum": "160",
+      "description": "Reg Bus 160"
+    },
+    {
+      "value": "auh:12161:P:H:5p1",
+      "routeName": "H",
+      "from": "Al Bateen, Corniche St / Commercial International Bank",
+      "to": "Khalifa City, Theyab Bin Eissa St / Souq",
+      "busNum": "161",
+      "description": "Reg Bus 161"
+    },
+    {
+      "value": "auh:12170:P:H:5p1",
+      "routeName": "H",
+      "from": "Al Sadiyat, Saadiyat New York University 2",
+      "to": "Al Rahah, Al Zeina",
+      "busNum": "170",
+      "description": "Reg Bus 170"
+    },
+    {
+      "value": "auh:12175:P:H:5p1",
+      "routeName": "H",
+      "from": "Al Bateen, Al Bateen St / Sheikha Fatima Park",
+      "to": "Al Rahah, Al Zeina",
+      "busNum": "175",
+      "description": "Reg Bus 175"
+    },
+    {
+      "value": "auh:12187:P:H:5p1",
+      "routeName": "H",
+      "from": "Al Sadiyat, Jacques Chirac St / Mamsha Al Saadiyat",
+      "to": "Al Sadiyat, Jacques Chirac St / Mamsha Al Saadiyat",
+      "busNum": "187",
+      "description": "Reg Bus 187"
+    },
+    {
+      "value": "auh:12201:P:H:5p1",
+      "routeName": "H",
+      "from": "Al Bahyah, Al Saay St / Shuhadah Badar Mosque",
+      "to": "Al Nahyan, Abu Dhabi Bus Station",
+      "busNum": "201",
+      "description": "Reg Bus 201"
+    },
+    {
+      "value": "auh:12202:P:H:5p1",
+      "routeName": "H",
+      "from": "Al Rahbah, Al Yaseer St / Al Rahba Hospital",
+      "to": "Al Nahyan, Abu Dhabi Bus Station",
+      "busNum": "202",
+      "description": "Reg Bus 202"
+    },
+    {
+      "value": "auh:12203:P:H:5p1",
+      "routeName": "H",
+      "from": "Abu Mreikhah, BAPS Temple",
+      "to": "Al Nahyan, Abu Dhabi Bus Station",
+      "busNum": "203",
+      "description": "Reg Bus 203"
+    },
+    {
+      "value": "auh:12210:P:H:5p1",
+      "routeName": "H",
+      "from": "Al Bahyah, Al Sinad St / Al Shahama Bus Station",
+      "to": "Abu Dhabi Industrial City, Al Wazn St / Dalma Mall Main Entrance",
+      "busNum": "210",
+      "description": "Reg Bus 210"
+    },
+    {
+      "value": "auh:12216:P:H:5p1",
+      "routeName": "H",
+      "from": "Al Bahyah, Al Sinad St / Al Shahama Bus Station",
+      "to": "MBZ City, MBZ City Bus Station",
+      "busNum": "216",
+      "description": "Reg Bus 216"
+    },
+    {
+      "value": "auh:12221:P:H:5p1",
+      "routeName": "H",
+      "from": "Al Samhah, Al Kubara-a St / Souq",
+      "to": "Al Bahyah, Al Sallah St / Al Al Bahyah Souq",
+      "busNum": "221",
+      "description": "Reg Bus 221"
+    },
+    {
+      "value": "auh:12222:P:H:5p1",
+      "routeName": "H",
+      "from": "Al Samhah, Hili St / Souq",
+      "to": "Al Shahama, Al Shaeel St / Osama Bin Zaid Mosque",
+      "busNum": "222",
+      "description": "Reg Bus 222"
+    },
+    {
+      "value": "auh:12223:P:H:5p1",
+      "routeName": "H",
+      "from": "Al Bahyah, Al Sinad St / Al Shahama Bus Station",
+      "to": "Al Bahyah, Al Sinad St / Al Shahama Bus Station",
+      "busNum": "223",
+      "description": "Reg Bus 223"
+    },
+    {
+      "value": "auh:12225:P:H:5p1",
+      "routeName": "H",
+      "from": "Al Sader, Al Fattan Ship Industry",
+      "to": "Al Bahya, Al Rubban St / Al Widayhi St",
+      "busNum": "225",
+      "description": "Reg Bus 225"
+    },
+    {
+      "value": "auh:12227:P:H:5p1",
+      "routeName": "H",
+      "from": "Zayed Military City, Sweihan Prison",
+      "to": "Al Bahyah, Al Sinad St / Al Shahama Bus Station",
+      "busNum": "227",
+      "description": "Reg Bus 227"
+    },
+    {
+      "value": "auh:12228:P:H:5p1",
+      "routeName": "H",
+      "from": "Zayed Military City, Tawazun",
+      "to": "Al Bahyah, Al Sinad St / Al Shahama Bus Station",
+      "busNum": "228",
+      "description": "Reg Bus 228"
+    },
+    {
+      "value": "auh:12300:P:H:5p1",
+      "routeName": "H",
+      "from": "Al Shamkhah, Al Tasmeeh St / Al Shamkhah Makani Mall",
+      "to": "Al Danah, Sultan Bin Zayed St / Capital Park",
+      "busNum": "300",
+      "description": "Reg Bus 300"
+    },
+    {
+      "value": "auh:22350:P:H:5p1",
+      "routeName": "H",
+      "from": "Sweihan, St 65 / Slaughter House",
+      "to": "Central District, Othman Bin Affan St / Al Ain Central Bus Station",
+      "busNum": "350",
+      "description": "Reg Bus 350"
+    },
+    {
+      "value": "auh:22360:P:H:5p1",
+      "routeName": "H",
+      "from": "Nahil, St 81 / Ali Hader Al Mazrouei Mosque",
+      "to": "Central District, Othman Bin Affan St / Al Ain Central Bus Station",
+      "busNum": "360",
+      "description": "Reg Bus 360"
+    },
+    {
+      "value": "auh:22380:P:H:5p1",
+      "routeName": "H",
+      "from": "Al Faqa', St 1 /Al Ain Co-op",
+      "to": "Central District, Othman Bin Affan St / Al Ain Central Bus Station",
+      "busNum": "380",
+      "description": "Reg Bus 380"
+    },
+    {
+      "value": "auh:22390:P:H:5p1",
+      "routeName": "H",
+      "from": "Al Shiwayb, St 1 / Souq",
+      "to": "Central District, Othman Bin Affan St / Al Ain Central Bus Station",
+      "busNum": "390",
+      "description": "Reg Bus 390"
+    },
+    {
+      "value": "auh:12401:P:H:5p1",
+      "routeName": "H",
+      "from": "Al Rawdah, Sheikh Zayed Grand Mosque",
+      "to": "Bani Yas, Bani Yas St / Souq",
+      "busNum": "401",
+      "description": "Reg Bus 401"
+    },
+    {
+      "value": "auh:12404:P:H:5p1",
+      "routeName": "H",
+      "from": "Al Danah, Sultan Bin Zayed St / Capital Park",
+      "to": "Al Nahdah, Al Burouj St / Al Wathba Municipality",
+      "busNum": "404",
+      "description": "Reg Bus 404"
+    },
+    {
+      "value": "auh:12405:P:H:5p1",
+      "routeName": "H",
+      "from": "Al Danah, Sultan Bin Zayed St / Capital Park",
+      "to": "Al Nahdah, Al Burouj St / Al Wathba Municipality",
+      "busNum": "405",
+      "description": "Reg Bus 405"
+    },
+    {
+      "value": "auh:12407:P:H:5p1",
+      "routeName": "H",
+      "from": "Al Zahiyah, Al Zahiyah Bus Station",
+      "to": "Jarn Yafour, Al Fasayil St /Al Raha Shopping Centre",
+      "busNum": "407",
+      "description": "Reg Bus 407"
+    },
+    {
+      "value": "auh:12410:P:H:5p1",
+      "routeName": "H",
+      "from": "Mussafah, Sireef St / Mussafah Port",
+      "to": "Jarn Yafour, Al Nawahi St / LifeCare Hospital",
+      "busNum": "410",
+      "description": "Reg Bus 410"
+    },
+    {
+      "value": "auh:12420:P:H:5p1",
+      "routeName": "H",
+      "from": "Shakhbout City, Abdulrahman Bin Ali Al Mubarak St / ADNOC",
+      "to": "Jarn Yafour, Al Nawahi St / LifeCare Hospital",
+      "busNum": "420",
+      "description": "Reg Bus 420"
+    },
+    {
+      "value": "auh:22540:P:H:5p1",
+      "routeName": "H",
+      "from": "Industrial City, Ath Thabat 2 St / Roundabout Nael Cement Products",
+      "to": "Khattm Al Shikhla, Al Diffah St/ ADNOC",
+      "busNum": "540",
+      "description": "Reg Bus 540"
+    },
+    {
+      "value": "auh:22550:P:H:5p1",
+      "routeName": "H",
+      "from": "Al Qou'a, Um Al Zumoul Rd / Municipal Souq",
+      "to": "Central District, Othman Bin Affan St / Al Ain Central Bus Station",
+      "busNum": "550",
+      "description": "Reg Bus 550"
+    },
+    {
+      "value": "auh:32640:P:H:5p1",
+      "routeName": "H",
+      "from": "Western Mahadir, Sheikh Theyab Bin Eissa Al Falahi Rd/ Arrada Farms",
+      "to": "Muzayr'ah, Sheikha Salama Bint Butti Rd/ Mezaira'a Bus Station",
+      "busNum": "640",
+      "description": "Reg Bus 640"
+    },
+    {
+      "value": "auh:31651:P:H:5p1",
+      "routeName": "H",
+      "from": "Muzayr'ah, Mahdar Al Jafn St/ Mezaira'a Industrial Area",
+      "to": "Muzayr'ah, Mahdar Al Jafn St/ Mezaira'a Industrial Area",
+      "busNum": "651",
+      "description": "City Bus 651"
+    },
+    {
+      "value": "auh:31652:P:H:5p1",
+      "routeName": "H",
+      "from": "Western Mahadir, Mahdar Liteer St/ Al Mariyah Farms",
+      "to": "Muzayr'ah, Khalifa Ahmed Al Muhairbi St/ Mezaira'a South",
+      "busNum": "652",
+      "description": "City Bus 652"
+    },
+    {
+      "value": "auh:32655:P:H:5p1",
+      "routeName": "H",
+      "from": "Hameem, Al Dhahabi St / Saif Bin Esyan Almansoori Mosque",
+      "to": "Muzayr'ah, Sheikha Salama Bint Butti Rd/ Mezaira'a Bus Station",
+      "busNum": "655",
+      "description": "Reg Bus 655"
+    },
+    {
+      "value": "auh:32660:P:H:5p1",
+      "routeName": "H",
+      "from": "Muzayr'ah, Sheikha Salama Bint Butti Rd/ Mezaira'a Bus Station",
+      "to": "Madinat Zayed Bus Station",
+      "busNum": "660",
+      "description": "Reg Bus 660"
+    },
+    {
+      "value": "auh:31662:P:H:5p1",
+      "routeName": "H",
+      "from": "Zayed City, Miyar St/Al Jaber Camp",
+      "to": "Madinat Zayed Bus Station",
+      "busNum": "662",
+      "description": "City Bus 662"
+    },
+    {
+      "value": "auh:31663:P:H:5p1",
+      "routeName": "H",
+      "from": "Zayed City, Al Qattar St/Baynunah Market",
+      "to": "Madinat Zayed Bus Station",
+      "busNum": "663",
+      "description": "City Bus 663"
+    },
+    {
+      "value": "auh:31664:P:H:5p1",
+      "routeName": "H",
+      "from": "Zayed City, Al Qattar St/Baynunah Market",
+      "to": "Madinat Zayed Bus Station",
+      "busNum": "664",
+      "description": "City Bus 664"
+    },
+    {
+      "value": "auh:31665:P:H:5p1",
+      "routeName": "H",
+      "from": "Zayed City, 1001 Lane/Khalifa Mosque",
+      "to": "Zayed City, Al Riyoum St/MZ Police Station",
+      "busNum": "665",
+      "description": "City Bus 665"
+    },
+    {
+      "value": "auh:32670:P:H:5p1",
+      "routeName": "H",
+      "from": "Madinat Zayed Bus Station",
+      "to": "Al Taf Al Gharbi, Al Iffah St/Tarif Bus Station",
+      "busNum": "670",
+      "description": "Reg Bus 670"
+    },
+    {
+      "value": "auh:32675:P:H:5p1",
+      "routeName": "H",
+      "from": "Habshan, Bu Hasah Rd/ ADCO Accomdn.",
+      "to": "Madinat Zayed Bus Station",
+      "busNum": "675",
+      "description": "Reg Bus 675"
+    },
+    {
+      "value": "auh:32686:P:H:5p1",
+      "routeName": "H",
+      "from": "Madinat Zayed Bus Station",
+      "to": "Ghiyathi, Ghayathi Rd/ Ghayathi Bus Station",
+      "busNum": "686",
+      "description": "Reg Bus 686"
+    },
+    {
+      "value": "auh:32760:P:H:5p1",
+      "routeName": "H",
+      "from": "Zayed City, Al Saraya St/Dhafra Mall Lulu",
+      "to": "Al Marfa, Bandar Al Marfa St/ Mirfa Souq",
+      "busNum": "760",
+      "description": "Reg Bus 760"
+    },
+    {
+      "value": "auh:32770:P:H:5p1",
+      "routeName": "H",
+      "from": "Al Taf Al Gharbi, Al Iffah St/Tarif Bus Station",
+      "to": "Al Taf Al Gharbi, Al Kanar St/ Mirfa Dates Factory",
+      "busNum": "770",
+      "description": "Reg Bus 770"
+    },
+    {
+      "value": "auh:31771:P:H:5p1",
+      "routeName": "H",
+      "from": "Al Haramiyah, Al Dajeej St/ Harmiya Residence",
+      "to": "Al Taf Al Gharbi, Al Kanar St/ Mirfa Dates Factory",
+      "busNum": "771",
+      "description": "City Bus 771"
+    },
+    {
+      "value": "auh:32780:P:H:5p1",
+      "routeName": "H",
+      "from": "Al Dhannah, Al Rubban St/ Al Dhannah ADNOC Bus Station",
+      "to": "Al Taf Al Gharbi, Al Iffah St/Tarif Bus Station",
+      "busNum": "780",
+      "description": "Reg Bus 780"
+    },
+
+    {
+        "value": "auh:31861:P:H:5p1",
+        "routeName": "H",
+        "from": "Ghiyathi, Um Al Hisn Rd/ Ghayathi Farms",
+        "to": "Ghiyathi, Ghayathi Rd/ Ghayathi Bus Station",
+        "busNum": "861",
+        "description": "City Bus 861"
+    },
+    {
+        "value": "auh:31862:P:H:5p1",
+        "routeName": "H",
+        "from": "Bada Al Mutawah, Al Bidou St/ Bida Al Muthawa",
+        "to": "Ghiyathi, Ghayathi Rd/ Ghayathi Bus Station",
+        "busNum": "862",
+        "description": "City Bus 862"
+    },
+    {
+        "value": "auh:31863:P:H:5p1",
+        "routeName": "H",
+        "from": "Ghiyathi, Ghayathi Rd/ Industrial Area",
+        "to": "Ghiyathi, Um Al Hisn Rd/ LuLu Express",
+        "busNum": "863",
+        "description": "City Bus 863"
+    },
+    {
+        "value": "auh:31864:P:H:5p1",
+        "routeName": "H",
+        "from": "Ghayathi, Al Musfirah St/ Workers City Stop 1",
+        "to": "Ghiyathi, Um Al Hisn Rd/ LuLu Express",
+        "busNum": "864",
+        "description": "City Bus 864"
+    },
+    {
+        "value": "auh:32880:P:H:5p1",
+        "routeName": "H",
+        "from": "Ghiyathi, Ghayathi Rd/ Ghayathi Souq",
+        "to": "Al Dhannah, Al Dhannah Mall",
+        "busNum": "880",
+        "description": "Reg Bus 880"
+    },
+    {
+        "value": "auh:31881:P:H:5p1",
+        "routeName": "H",
+        "from": "Jabal Al Dhannah, Al Khazmiyah St/ Sir Baniyas Port",
+        "to": "Al Dhannah, ADWEA Saipam Camp",
+        "busNum": "881",
+        "description": "City Bus 881"
+    },
+    {
+        "value": "auh:31882:P:H:5p1",
+        "routeName": "H",
+        "from": "Jabal Al Dhannah, Al Khazmiyah St/ Sir Baniyas Port",
+        "to": "Al Dhannah, Al Dhannah Mall",
+        "busNum": "882",
+        "description": "City Bus 882"
+    },
+    {
+        "value": "auh:31883:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Dhannah, Al Rubban St/ Al Dhannah ADNOC Bus Station",
+        "to": "Al Dhannah, Al Rubban St/ Al Dhannah ADNOC Bus Station",
+        "busNum": "883",
+        "description": "City Bus 883"
+    },
+    {
+        "value": "auh:31884:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Dhannah, Al Rubban St/ Al Dhannah ADNOC Bus Station",
+        "to": "Al Dhannah, Al Rubban St/ Al Dhannah ADNOC Bus Station",
+        "busNum": "884",
+        "description": "City Bus 884"
+    },
+    {
+        "value": "auh:32890:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Ghuweifat, Shk. Khalifa Bin Zayed Al Nahyan Int'l Rd/ Ghewifat Rest Area",
+        "to": "Al Dhannah, Al Rubban St/ Al Dhannah ADNOC Bus Station",
+        "busNum": "890",
+        "description": "Reg Bus 890"
+    },
+    {
+        "value": "auh:31891:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Sila, Al Silaa St/ Al Silaa New Hospital",
+        "to": "Al Sila, Al Silaa St/Al Silaa Bus Station",
+        "busNum": "891",
+        "description": "City Bus 891"
+    },
+    {
+        "value": "auh:21900:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Noud , Bawadi Mall Service Road / Bawadi Mall",
+        "to": "Hili, Bani Yas St / Wahat Hili Mall",
+        "busNum": "900",
+        "description": "City Bus 900"
+    },
+    {
+        "value": "auh:21901:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Maqam, Al Khaleej St / Souq",
+        "to": "Hili, Bani Yas St / Wahat Hili Mall",
+        "busNum": "901",
+        "description": "City Bus 901"
+    },
+    {
+        "value": "auh:21902:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Maqam, St 1 / Co-Op",
+        "to": "Hili, Bani Yas St / Wahat Hili Mall",
+        "busNum": "902",
+        "description": "City Bus 902"
+    },
+    {
+        "value": "auh:21903:P:H:5p1",
+        "routeName": "H",
+        "from": "Zakhir, Ni'mah St | Zakhir East Police Station",
+        "to": "Hili, Bani Yas St / Wahat Hili Mall",
+        "busNum": "903",
+        "description": "City Bus 903"
+    },
+    {
+        "value": "auh:21904:P:H:5p1",
+        "routeName": "H",
+        "from": "Ni'mah, St 47 / Makani Mall",
+        "to": "Al Ameriyah, Al Maqoud St / Mosque",
+        "busNum": "904",
+        "description": "City Bus 904"
+    },
+    {
+        "value": "auh:21905:P:H:5p1",
+        "routeName": "H",
+        "from": "Shiab Al Ashkhar, Al Ain Co-op",
+        "to": "Al Tiwayyah, Al Madar St / Co-op",
+        "busNum": "905",
+        "description": "City Bus 905"
+    },
+    {
+        "value": "auh:21906:P:H:5p1",
+        "routeName": "H",
+        "from": "Mbazzarah Al Khadra, Mubazzarah Street /Green Mubazzarah",
+        "to": "Al Ain Int'l Airport, Airport St  / STRATA",
+        "busNum": "906",
+        "description": "City Bus 906"
+    },
+    {
+        "value": "auh:21907:P:H:5p1",
+        "routeName": "H",
+        "from": "Mazyad, Zayed Bin Sultan St / ADNOC",
+        "to": "Al Maqam, St 1 / Co-Op",
+        "busNum": "907",
+        "description": "City Bus 907"
+    },
+    {
+        "value": "auh:21908:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Noud , Bawadi Mall Service Road / Bawadi Mall",
+        "to": "Al Aamerah, St 72 / Shakhboot Bin Sultan Mosque",
+        "busNum": "908",
+        "description": "City Bus 908"
+    },
+    {
+        "value": "auh:21909:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Noud, St 71 / MarThoma Church",
+        "to": "Ghireebah, Al Sifouf St / Ghoneimah Mosque",
+        "busNum": "909",
+        "description": "City Bus 909"
+    },
+    {
+        "value": "auh:21911:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Bateen, Surat St / Hamouda Sarhan Al Neyadi Mosque",
+        "to": "Hili, Ardh Al Jaw St / Hili Fun City",
+        "busNum": "911",
+        "description": "City Bus 911"
+    },
+    {
+        "value": "auh:21912:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Maqam, St 1 / Co-Op",
+        "to": "Al Fou'ah, Abu Obayda Bin Al Jarrah St / Al Foa'a Mall",
+        "busNum": "912",
+        "description": "City Bus 912"
+    },
+    {
+        "value": "auh:21913:P:H:5p1",
+        "routeName": "H",
+        "from": "Zakhir, Ni'mah St | Zakhir East Police Station",
+        "to": "Al Nayfa, Oud Shihaylah St / ADVETI",
+        "busNum": "913",
+        "description": "City Bus 913"
+    },
+    {
+        "value": "auh:21914:P:H:5p1",
+        "routeName": "H",
+        "from": "Mbazzarah Al Khadra, St 70 / AF Co-op",
+        "to": "Al Tiwayyah, Umm Al Sidir St / Maryam Bint Sultan School",
+        "busNum": "914",
+        "description": "City Bus 914"
+    },
+    {
+        "value": "auh:21915:P:H:5p1",
+        "routeName": "H",
+        "from": "Ain Al Faydah, Park Road / Ain Al Faydah Park West",
+        "to": "Al Tiwayyah, Al Afiyah St / Al Tiwayyah Healthcare Center",
+        "busNum": "915",
+        "description": "City Bus 915"
+    },
+    {
+        "value": "auh:21916:P:H:5p1",
+        "routeName": "H",
+        "from": "Zakhir, Al Zakhirah St / Al Mottaqein Mosque",
+        "to": "Al Salamat, Falah Bin Jaber Al Ahbabi St / Co-op",
+        "busNum": "916",
+        "description": "City Bus 916"
+    },
+    {
+        "value": "auh:21917:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Dhahir, AL Dhahir Grand Mosque",
+        "to": "Al Maqam, St 1 / Co-Op",
+        "busNum": "917",
+        "description": "City Bus 917"
+    },
+    {
+        "value": "auh:21918:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Noud , Bawadi Mall Service Road / Bawadi Mall",
+        "to": "Aliyah, St 2 / Al Aaliya School",
+        "busNum": "918",
+        "description": "City Bus 918"
+    },
+    {
+        "value": "auh:21919:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Noud, St 71 / MarThoma Church",
+        "to": "Al Rawdah Al Sharqiyah, St 91 / Faraj Mushabab Fadel Muhammad Al-Otaibi",
+        "busNum": "919",
+        "description": "City Bus 919"
+    },
+    {
+        "value": "auh:21927:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Dhahir Community, St 23 / Dhahir Community Grand Mosque",
+        "to": "Al Maqam, St 1 / Co-Op",
+        "busNum": "927",
+        "description": "City Bus 927"
+    },
+    {
+        "value": "auh:21928:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Noud , Bawadi Mall Service Road / Bawadi Mall",
+        "to": "Al Aamerah, Al Manaz St / Souq",
+        "busNum": "928",
+        "description": "City Bus 928"
+    },
+    {
+        "value": "auh:21937:P:H:5p1",
+        "routeName": "H",
+        "from": "Um Ghafah, Al Gheemat St / Um Ghafah Souq",
+        "to": "Al Maqam, St 1 / Co-Op",
+        "busNum": "937",
+        "description": "City Bus 937"
+    },
+    {
+        "value": "auh:21938:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Noud , Bawadi Mall Service Road / Bawadi Mall",
+        "to": "Al Aamerah, Ghaleel Al Madar St / Abdullah Bin Rakad Al Ameri Mosque",
+        "busNum": "938",
+        "description": "City Bus 938"
+    },
+    {
+        "value": "auh:21992:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Maqam, St 1 / Co-Op",
+        "to": "Hili, Bani Yas St / Wahat Hili Mall",
+        "busNum": "992",
+        "description": "City Bus 992"
+    },
+    {
+        "value": "auh:120A1:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Zahiyah, Al Zahiyah Bus Station",
+        "to": "Al Matar, Zayed International Airport ECC",
+        "busNum": "A1",
+        "description": "Reg Bus A1"
+    },
+    {
+        "value": "auh:120A2:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Danah, Khalifa Bin Zayed St / Shk. Zayed Bin Sultan St",
+        "to": "Al Matar, Zayed International Airport ECC",
+        "busNum": "A2",
+        "description": "Reg Bus A2"
+    },
+    {
+        "value": "auh:12A10:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Matar, Zayed International Airport ECC",
+        "to": "MBZ City, MBZ City Bus Station",
+        "busNum": "A10",
+        "description": "Reg Bus A10"
+    },
+    {
+        "value": "auh:12A15:P:H:5p1",
+        "routeName": "H",
+        "from": "Abu Dhabi International Airport, Terminal 2",
+        "to": "Abu Dhabi International Airport, Terminal 2",
+        "busNum": "A15",
+        "description": "Reg Bus A15"
+    },
+    {
+        "value": "auh:12A40:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Bahyah, Al Sinad St / Al Shahama Bus Station",
+        "to": "Jarn Yafour, Baniyas West Bus Station",
+        "busNum": "A40",
+        "description": "Reg Bus A40"
+    },
+    {
+        "value": "auh:15AD1:P:H:5p1",
+        "routeName": "H",
+        "from": "Zayed Port, Carpet Souq",
+        "to": "Zayed Port, Carpet Souq",
+        "busNum": "AD1",
+        "description": "City Bus AD1"
+    },
+    {
+        "value": "auh:17AR1:P:H:5p1",
+        "routeName": "H",
+        "from": "Reem Island, Al Ghazal St / Reem Mall",
+        "to": "Reem Island, Al Ghazal St / Reem Mall",
+        "busNum": "AR1",
+        "description": "City Bus AR1"
+    },
+    {
+        "value": "auh:12B45:P:H:5p1",
+        "routeName": "H",
+        "from": "Bani Yas, Al Muntasaf St / Bawabat Al Sharq Mall North",
+        "to": "Al Wathbah, Prison",
+        "busNum": "B45",
+        "description": "Reg Bus B45"
+    },
+    {
+        "value": "auh:12B46:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Wathbah, Al Mahkour St / Obada Bin Al Samit Mosque",
+        "to": "Al Shawamekh, Al Miqdad Al Kindy Mosque",
+        "busNum": "B46",
+        "description": "Reg Bus B46"
+    },
+    {
+        "value": "auh:12B47:P:H:5p1",
+        "routeName": "H",
+        "from": "Shakhbout City, Al Riayah St / Fatima College",
+        "to": "Al Wathbah, Tawi Um Al Atal St / Zaid Bin Al Mualla Mosque",
+        "busNum": "B47",
+        "description": "Reg Bus B47"
+    },
+    {
+        "value": "auh:120F1:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Shamkhah, Al Tasmeeh St / Al Shamkhah Makani Mall",
+        "to": "Al Reef, Liwa St / Downtown",
+        "busNum": "F1",
+        "description": "Reg Bus F1"
+    },
+    {
+        "value": "auh:140K2:P:H:5p1",
+        "routeName": "H",
+        "from": "Khalifa City, Theyab Bin Eissa St / Souq",
+        "to": "Khalifa City, Theyab Bin Eissa St / Souq",
+        "busNum": "K2",
+        "description": "Reg Bus K2"
+    },
+    {
+        "value": "auh:140K3:P:H:5p1",
+        "routeName": "H",
+        "from": "Khalifa City, Al Uzoum St / Al Rayyana",
+        "to": "Masdar City, MBZ University of Artificial Intelligence",
+        "busNum": "K3",
+        "description": "Reg Bus K3"
+    },
+    {
+        "value": "auh:140K4:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Matar, Zayed International Airport ECC",
+        "to": "Khalifa City, Al Fursan St / Ministry of Justice",
+        "busNum": "K4",
+        "description": "Reg Bus K4"
+    },
+    {
+        "value": "auh:11L41:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Rawdah, Al Mu Atamarat St / ADNEC",
+        "to": "Al Zahiyah, Al Meena St / Corniche Hospital 1",
+        "busNum": "L41",
+        "description": "City Bus L41"
+    },
+    {
+        "value": "auh:11L42:P:H:5p1",
+        "routeName": "H",
+        "from": "Rabdan, Khaleej Al Arabi St / Bus Interchange",
+        "to": "Jazeerat Al Maryah, Hamouda Bin Ali Al Dhaheri St / Al Maryah",
+        "busNum": "L42",
+        "description": "City Bus L42"
+    },
+    {
+        "value": "auh:11L43:P:H:5p1",
+        "routeName": "H",
+        "from": "Rabdan, Al Khor St / Souq Qaryat Al Beri",
+        "to": "Jazeerat Al Maryah, Hamouda Bin Ali Al Dhaheri St / Al Maryah",
+        "busNum": "L43",
+        "description": "City Bus L43"
+    },
+    {
+        "value": "auh:140M1:P:H:5p1",
+        "routeName": "H",
+        "from": "Abu Dhabi Industrial City, Al Wazn St / Dalma Mall Main Entrance",
+        "to": "Abu Dhabi Industrial City, Al Wazn St / Dalma Mall Main Entrance",
+        "busNum": "M1",
+        "description": "Reg Bus M1"
+    },
+    {
+        "value": "auh:140M2:P:H:5p1",
+        "routeName": "H",
+        "from": "MBZ City, Al Manhal St / Mazyad Mall",
+        "to": "MBZ City, Sultan Bin Mohammed Al Qubaisi St / Mazyad Mall",
+        "busNum": "M2",
+        "description": "Reg Bus M2"
+    },
+    {
+        "value": "auh:140M3:P:H:5p1",
+        "routeName": "H",
+        "from": "MBZ City, Al Nasr St / ADVETI",
+        "to": "Zayed City, Abu Dhabi University",
+        "busNum": "M3",
+        "description": "Reg Bus M3"
+    },
+    {
+        "value": "auh:140M4:P:H:5p1",
+        "routeName": "H",
+        "from": "MBZ City, Al Rasi St / Razim St",
+        "to": "MBZ City, Sultan Bin Mohammed Al Qubaisi St / Mazyad Mall",
+        "busNum": "M4",
+        "description": "Reg Bus M4"
+    },
+    {
+        "value": "auh:140M5:P:H:5p1",
+        "routeName": "H",
+        "from": "MBZ City, Al Saleel St / Shk. Zayed bin Sultan Al Nahyan Mosque",
+        "to": "MBZ City, Sultan Bin Mohammed Al Qubaisi St / Mazyad Mall",
+        "busNum": "M5",
+        "description": "Reg Bus M5"
+    },
+    {
+        "value": "auh:120N2:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Zahiyah, Al Zahiyah Bus Station",
+        "to": "Al Matar, Zayed International Airport ECC",
+        "busNum": "N2",
+        "description": "Reg Bus N2"
+    },
+    {
+        "value": "auh:11N41:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Rawdah, Al Mu Atamarat St / ADNEC",
+        "to": "Al Zahiyah, Al Meena St / Corniche Hospital 1",
+        "busNum": "N41",
+        "description": "City Bus N41"
+    },
+    {
+        "value": "auh:11N43:P:H:5p1",
+        "routeName": "H",
+        "from": "Rabdan, Al Khor St / Souq Qaryat Al Beri",
+        "to": "Al Zahiyah, Al Meena St / Corniche Hospital 1",
+        "busNum": "N43",
+        "description": "City Bus N43"
+    },
+    {
+        "value": "auh:150Q3:P:H:5p1",
+        "routeName": "H",
+        "from": "Rabdan, Khaleej Al Arabi St / Bus Interchange",
+        "to": "Rabdan, Khaleej Al Arabi St / Bus Interchange",
+        "busNum": "Q3",
+        "description": "City Bus Q3"
+    },
+    {
+        "value": "auh:120R1:P:H:5p1",
+        "routeName": "H",
+        "from": "MBZ City, MBZ City Bus Station",
+        "to": "Al Wathbah, Razeen Workers City 3",
+        "busNum": "R1",
+        "description": "Reg Bus R1"
+    },
+    {
+        "value": "auh:110X5:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Zahiyah, Al Meena St / Corniche Hospital 2",
+        "to": "Rabdan, Khaleej Al Arabi St / Bus Interchange",
+        "busNum": "X5",
+        "description": "City Bus X5"
+    },
+    {
+        "value": "auh:90X60:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Nahyan, Abu Dhabi Bus Station",
+        "to": "Muzayr'ah, Sheikha Salama Bint Butti Rd/ Mezaira'a Bus Station",
+        "busNum": "X60",
+        "description": "Exp Bus X60"
+    },
+    {
+        "value": "auh:90X70:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Marfa, Al Khor St/ Mirfa Bus Station",
+        "to": "Al Nahyan, Abu Dhabi Bus Station",
+        "busNum": "X70",
+        "description": "Exp Bus X70"
+    },
+    {
+        "value": "auh:90X88:P:H:5p1",
+        "routeName": "H",
+        "from": "Al Nahyan, Abu Dhabi Bus Station",
+        "to": "Al Dhannah, Al Rubban St/ Al Dhannah ADNOC Bus Station",
+        "busNum": "X88",
+        "description": "Exp Bus X88"
+    },
+    {
+        "value": "auh:90X90:P:H:5p1",
+        "routeName": "H",
+        "from": "Central District, Othman Bin Affan St / Al Ain Central Bus Station",
+        "to": "Al Nahyan, Abu Dhabi Bus Station",
+        "busNum": "X90",
+        "description": "Exp Bus X90"
+    },
+    {
+        "value": "auh:90X92:P:H:5p1",
+        "routeName": "H",
+        "from": "Central District, Othman Bin Affan St / Al Ain Central Bus Station",
+        "to": "MBZ City, MBZ City Bus Station",
+        "busNum": "X92",
+        "description": "Exp Bus X92"
+    },
+    {
+        "value": "auh:90X93:P:H:5p1",
+        "routeName": "H",
+        "from": "Central District, Othman Bin Affan St / Al Ain Central Bus Station",
+        "to": "Al Matar, Zayed International Airport Terminal A Departure",
+        "busNum": "X93",
+        "description": "Exp Bus X93"
+    }
+]
