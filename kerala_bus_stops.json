@@ -1,0 +1,2029 @@
+  [
+    {
+      "value": "2012",
+      "text": "26TH MILE"
+    },
+    {
+      "value": "2150",
+      "text": "3RD MILE"
+    },
+    {
+      "value": "1957",
+      "text": "ADICHIRA"
+    },
+    {
+      "value": "1859",
+      "text": "ADIMALI"
+    },
+    {
+      "value": "271",
+      "text": "ADIVARAM"
+    },
+    {
+      "value": "925",
+      "text": "ADKATHBAIL"
+    },
+    {
+      "value": "1",
+      "text": "ADOOR"
+    },
+    {
+      "value": "2",
+      "text": "ALAPPUZHA"
+    },
+    {
+      "value": "1584",
+      "text": "ALATHIYUR"
+    },
+    {
+      "value": "252",
+      "text": "ALATHOOR"
+    },
+    {
+      "value": "523",
+      "text": "ALTHARA"
+    },
+    {
+      "value": "3",
+      "text": "ALUVA"
+    },
+    {
+      "value": "268",
+      "text": "ALUVA BYPASS JN"
+    },
+    {
+      "value": "648",
+      "text": "AMBALAMKUNNU"
+    },
+    {
+      "value": "5",
+      "text": "AMBALAPUZHA"
+    },
+    {
+      "value": "208",
+      "text": "AMBALLOOR"
+    },
+    {
+      "value": "178",
+      "text": "AMRUTHA HOSPITAL"
+    },
+    {
+      "value": "269",
+      "text": "ANCHAL"
+    },
+    {
+      "value": "2054",
+      "text": "ANJARAKANDY"
+    },
+    {
+      "value": "7",
+      "text": "ANKAMALY"
+    },
+    {
+      "value": "546",
+      "text": "ANTHIKKAD"
+    },
+    {
+      "value": "1469",
+      "text": "ANTHRASANTHE"
+    },
+    {
+      "value": "299",
+      "text": "AROOKUTTY"
+    },
+    {
+      "value": "342",
+      "text": "AROOR"
+    },
+    {
+      "value": "475",
+      "text": "ARTHUNKAL"
+    },
+    {
+      "value": "179",
+      "text": "ARUVIPPURAM"
+    },
+    {
+      "value": "9",
+      "text": "ARYANAD"
+    },
+    {
+      "value": "257",
+      "text": "ATHANI"
+    },
+    {
+      "value": "618",
+      "text": "ATHIYANOOR"
+    },
+    {
+      "value": "12",
+      "text": "ATTINGAL"
+    },
+    {
+      "value": "288",
+      "text": "AYIROOPPARA"
+    },
+    {
+      "value": "212",
+      "text": "AYOOR"
+    },
+    {
+      "value": "362",
+      "text": "BALARAMAPURAM"
+    },
+    {
+      "value": "1179",
+      "text": "BAVELY"
+    },
+    {
+      "value": "14",
+      "text": "BENGALURU"
+    },
+    {
+      "value": "16",
+      "text": "CHADAYAMANGALAM"
+    },
+    {
+      "value": "17",
+      "text": "CHAKKULATHUKAVU"
+    },
+    {
+      "value": "18",
+      "text": "CHALAKKUDI"
+    },
+    {
+      "value": "1908",
+      "text": "CHALODE"
+    },
+    {
+      "value": "19",
+      "text": "CHANGANASSERY"
+    },
+    {
+      "value": "498",
+      "text": "CHANGARAMKULAM"
+    },
+    {
+      "value": "898",
+      "text": "CHAPATH"
+    },
+    {
+      "value": "20",
+      "text": "CHATHANNUR JN"
+    },
+    {
+      "value": "412",
+      "text": "CHAVAKKAD"
+    },
+    {
+      "value": "291",
+      "text": "CHEEKALKADAVU"
+    },
+    {
+      "value": "441",
+      "text": "CHEEYAMPARA"
+    },
+    {
+      "value": "508",
+      "text": "CHELAKKARA"
+    },
+    {
+      "value": "21",
+      "text": "CHENGANNUR"
+    },
+    {
+      "value": "769",
+      "text": "CHEPPAD"
+    },
+    {
+      "value": "22",
+      "text": "CHERTHALA"
+    },
+    {
+      "value": "180",
+      "text": "CHERUKOLPUZHA"
+    },
+    {
+      "value": "221",
+      "text": "CHERUTHONI"
+    },
+    {
+      "value": "1347",
+      "text": "CHERUVANNOOR"
+    },
+    {
+      "value": "423",
+      "text": "CHERUVATHOOR STN RD"
+    },
+    {
+      "value": "254",
+      "text": "CHINGAVANAM"
+    },
+    {
+      "value": "388",
+      "text": "CHINNAKADA"
+    },
+    {
+      "value": "23",
+      "text": "CHITOOR"
+    },
+    {
+      "value": "1619",
+      "text": "CHITOOR BS"
+    },
+    {
+      "value": "1256",
+      "text": "CHUNDA"
+    },
+    {
+      "value": "600",
+      "text": "CIVIL STATION KALPETTA"
+    },
+    {
+      "value": "24",
+      "text": "COIMBATORE"
+    },
+    {
+      "value": "453",
+      "text": "DHARMASALA"
+    },
+    {
+      "value": "273",
+      "text": "DINDIGAL"
+    },
+    {
+      "value": "839",
+      "text": "EDAKOCHI"
+    },
+    {
+      "value": "197",
+      "text": "EDAPAL JN"
+    },
+    {
+      "value": "356",
+      "text": "EDAPPALLY"
+    },
+    {
+      "value": "576",
+      "text": "ELAPPARA"
+    },
+    {
+      "value": "214",
+      "text": "ENATH"
+    },
+    {
+      "value": "223",
+      "text": "ERAMALLUR"
+    },
+    {
+      "value": "1336",
+      "text": "ERAVIPEROOR"
+    },
+    {
+      "value": "28",
+      "text": "ERNAKULAM"
+    },
+    {
+      "value": "30",
+      "text": "ERODE"
+    },
+    {
+      "value": "31",
+      "text": "ERUMELY"
+    },
+    {
+      "value": "211",
+      "text": "ETTUMANOOR"
+    },
+
+    {
+      "value": "1018",
+      "text": "FARMERS BANK"
+    },
+    {
+      "value": "2115",
+      "text": "FOUNDATION"
+    },
+    {
+      "value": "645",
+      "text": "GONIKOPPA"
+    },
+    {
+      "value": "894",
+      "text": "GOPALAPURAM"
+    },
+    {
+      "value": "1216",
+      "text": "GOVINDAPURAM"
+    },
+    {
+      "value": "33",
+      "text": "GUDALLOOR"
+    },
+    {
+      "value": "34",
+      "text": "GUNDALPET"
+    },
+    {
+      "value": "35",
+      "text": "GURUVAYOOR"
+    },
+    {
+      "value": "1472",
+      "text": "HAMPAPURA"
+    },
+    {
+      "value": "36",
+      "text": "HARIPPAD"
+    },
+    {
+      "value": "1470",
+      "text": "HD KOTTA"
+    },
+    {
+      "value": "37",
+      "text": "HOSSUR"
+    },
+    {
+      "value": "721",
+      "text": "HUNSUR"
+    },
+    {
+      "value": "610",
+      "text": "IDUKKI"
+    },
+    {
+      "value": "39",
+      "text": "IRITTY"
+    },
+    {
+      "value": "1349",
+      "text": "IRUMBUPALAM"
+    },
+    {
+      "value": "649",
+      "text": "KADAKKAL"
+    },
+    {
+      "value": "219",
+      "text": "KADALUNDIKADAVU"
+    },
+    {
+      "value": "1167",
+      "text": "KADAMPANADE"
+    },
+    {
+      "value": "972",
+      "text": "KADAPPAKKADA"
+    },
+    {
+      "value": "1355",
+      "text": "KADAVALLOOR"
+    },
+    {
+      "value": "1296",
+      "text": "KADIRUR"
+    },
+    {
+      "value": "1011",
+      "text": "KADUTHURUTHY"
+    },
+    {
+      "value": "1158",
+      "text": "KADUVANKULANGARA"
+    },
+    {
+      "value": "1963",
+      "text": "KAINAKARI"
+    },
+    {
+      "value": "370",
+      "text": "KAKKAD"
+    },
+    {
+      "value": "249",
+      "text": "KALADY"
+    },
+    {
+      "value": "397",
+      "text": "KALAMASSERY"
+    },
+    {
+      "value": "858",
+      "text": "KALARKODE"
+    },
+    {
+      "value": "694",
+      "text": "KALAVOOR"
+    },
+    {
+      "value": "764",
+      "text": "KALAYAPURAM"
+    },
+    {
+      "value": "40",
+      "text": "KALIYIKKAVILA"
+    },
+    {
+      "value": "283",
+      "text": "KALLAMBALAM"
+    },
+    {
+      "value": "693",
+      "text": "KALLAR"
+    },
+    {
+      "value": "1667",
+      "text": "KALLARKUTTY"
+    },
+    {
+      "value": "1450",
+      "text": "KALLUKOOTTIYAL"
+    },
+    {
+      "value": "41",
+      "text": "KALPETTA"
+    },
+    {
+      "value": "281",
+      "text": "KAMBAM"
+    },
+    {
+      "value": "1098",
+      "text": "KAMBILIKAND"
+    },
+    {
+      "value": "237",
+      "text": "KANHANGAD"
+    },
+    {
+      "value": "670",
+      "text": "KANICHUKULANGARA"
+    },
+    {
+      "value": "43",
+      "text": "KANIYAPURAM"
+    },
+    {
+      "value": "1121",
+      "text": "KANJANGADU"
+    },
+    {
+      "value": "316",
+      "text": "KANJANI"
+    },
+    {
+      "value": "617",
+      "text": "KANJAR"
+    },
+    {
+      "value": "366",
+      "text": "KANJIKUZHY"
+    },
+    {
+      "value": "204",
+      "text": "KANJIRAPPALLY"
+    },
+    {
+      "value": "44",
+      "text": "KANNUR"
+    },
+    {
+      "value": "45",
+      "text": "KANYAKUMARI"
+    },
+    {
+      "value": "727",
+      "text": "KANYAPADY"
+    },
+    {
+      "value": "1402",
+      "text": "KAPPITHANS"
+    },
+    {
+      "value": "946",
+      "text": "KARAKKAD"
+    },
+    {
+      "value": "746",
+      "text": "KARAMANA"
+    },
+    {
+      "value": "392",
+      "text": "KARAVALUR"
+    },
+    {
+      "value": "438",
+      "text": "KARETTE"
+    },
+    {
+      "value": "569",
+      "text": "KARINKAL"
+    },
+    {
+      "value": "220",
+      "text": "KARMAMTHODI"
+    },
+    {
+      "value": "679",
+      "text": "KARUKACHAL"
+    },
+    {
+      "value": "47",
+      "text": "KARUNAGAPALLY"
+    },
+    {
+      "value": "577",
+      "text": "KARUNAGAPALLY HOSPITAL JN"
+    },
+    {
+      "value": "690",
+      "text": "KARYAVATTOM JN"
+    },
+    {
+      "value": "48",
+      "text": "KASARAGOD"
+    },
+    {
+      "value": "49",
+      "text": "KATTAKKADA"
+    },
+    {
+      "value": "50",
+      "text": "KATTAPPANA"
+    },
+    {
+      "value": "709",
+      "text": "KATTIKULAM"
+    },
+
+    {
+      "value": "401",
+      "text": "KAVANAD"
+    },
+    {
+      "value": "51",
+      "text": "KAYAMKULAM"
+    },
+    {
+      "value": "345",
+      "text": "KAZHAKUTTOM"
+    },
+    {
+      "value": "1446",
+      "text": "KEEZHILLAM"
+    },
+    {
+      "value": "183",
+      "text": "KEEZHPALLY"
+    },
+    {
+      "value": "1195",
+      "text": "KENGERI"
+    },
+    {
+      "value": "314",
+      "text": "KERALA AUTO MOBILES"
+    },
+    {
+      "value": "1339",
+      "text": "KESAVADASAPURAM"
+    },
+    {
+      "value": "2126",
+      "text": "KG CHAVADY"
+    },
+    {
+      "value": "202",
+      "text": "KIDANGARA"
+    },
+    {
+      "value": "52",
+      "text": "KILIMANOOR"
+    },
+    {
+      "value": "1442",
+      "text": "KINASSERY"
+    },
+    {
+      "value": "1258",
+      "text": "KOCHI"
+    },
+    {
+      "value": "1198",
+      "text": "KODAIROAD"
+    },
+    {
+      "value": "248",
+      "text": "KODAKARA"
+    },
+    {
+      "value": "1451",
+      "text": "KODUMBU"
+    },
+    {
+      "value": "54",
+      "text": "KODUNGALOOR"
+    },
+    {
+      "value": "1382",
+      "text": "KODUNGOOR"
+    },
+    {
+      "value": "418",
+      "text": "KODUVAYUR"
+    },
+    {
+      "value": "680",
+      "text": "KOILANDY"
+    },
+    {
+      "value": "1471",
+      "text": "KOLAKKALA"
+    },
+    {
+      "value": "55",
+      "text": "KOLLAM"
+    },
+    {
+      "value": "799",
+      "text": "KOLLENGODE"
+    },
+    {
+      "value": "56",
+      "text": "KOLLUR MOOKAMBIKA"
+    },
+    {
+      "value": "566",
+      "text": "KONNI"
+    },
+    {
+      "value": "712",
+      "text": "KOODAL"
+    },
+    {
+      "value": "1436",
+      "text": "KOORIYAD"
+    },
+    {
+      "value": "209",
+      "text": "KOOTHATTUKULAM"
+    },
+    {
+      "value": "260",
+      "text": "KOOTHUPARAMBA"
+    },
+    {
+      "value": "1184",
+      "text": "KOOTTUPUZHA"
+    },
+    {
+      "value": "1582",
+      "text": "KOOTUPATHA"
+    },
+    {
+      "value": "1453",
+      "text": "KOPPALAM"
+    },
+    {
+      "value": "258",
+      "text": "KORATTY"
+    },
+    {
+      "value": "57",
+      "text": "KOTHAMANGALAM"
+    },
+    {
+      "value": "242",
+      "text": "KOTTAKKAL"
+    },
+    {
+      "value": "541",
+      "text": "KOTTAPADI"
+    },
+    {
+      "value": "1418",
+      "text": "KOTTAR"
+    },
+    {
+      "value": "1571",
+      "text": "KOTTARAKARA TEMPLE"
+    },
+    {
+      "value": "58",
+      "text": "KOTTARAKKARA"
+    },
+    {
+      "value": "59",
+      "text": "KOTTAYAM"
+    },
+    {
+      "value": "282",
+      "text": "KOTTIYAM"
+    },
+    {
+      "value": "503",
+      "text": "KOYILANDY"
+    },
+    {
+      "value": "279",
+      "text": "KOZHENCHERY"
+    },
+    {
+      "value": "1148",
+      "text": "KOZHICHENA"
+    },
+    {
+      "value": "63",
+      "text": "KOZHIKKODE"
+    },
+    {
+      "value": "184",
+      "text": "KOZHINJAMPARA"
+    },
+    {
+      "value": "1059",
+      "text": "KUILIMALA"
+    },
+    {
+      "value": "1648",
+      "text": "KULAKKAVU"
+    },
+    {
+      "value": "989",
+      "text": "KULAMAVU"
+    },
+    {
+      "value": "64",
+      "text": "KULATHUPUZHA"
+    },
+    {
+      "value": "65",
+      "text": "KUMALY"
+    },
+    {
+      "value": "674",
+      "text": "KUMARANELLOOR"
+    },
+    {
+      "value": "1843",
+      "text": "KUMBALAM"
+    },
+    {
+      "value": "226",
+      "text": "KUMBLA"
+    },
+    {
+      "value": "913",
+      "text": "KUMILY"
+    },
+    {
+      "value": "1573",
+      "text": "KUMMIL"
+    },
+    {
+      "value": "914",
+      "text": "KUNDANNUR"
+    },
+    {
+      "value": "284",
+      "text": "KUNDARA"
+    },
+    {
+      "value": "1460",
+      "text": "KUNDUKADAVU JN"
+    },
+    {
+      "value": "1218",
+      "text": "KUNISSERY"
+    },
+    {
+      "value": "240",
+      "text": "KUNNAMKULAM"
+    },
+    {
+      "value": "1003",
+      "text": "KUNNUMKULAM"
+    },
+    {
+      "value": "210",
+      "text": "KURAVILANGAD"
+    },
+    {
+      "value": "1295",
+      "text": "KURINJI"
+    },
+    {
+      "value": "996",
+      "text": "KURIYAD"
+    },
+    {
+      "value": "571",
+      "text": "KURIYANAD"
+    },
+    {
+      "value": "806",
+      "text": "KURUPPAMPADY"
+    },
+    {
+      "value": "1186",
+      "text": "KURUVILANGAD"
+    },
+    {
+      "value": "687",
+      "text": "KUTHATTUKULAM"
+    },
+    {
+      "value": "1128",
+      "text": "KUTHUPARAMBA"
+    },
+    {
+      "value": "445",
+      "text": "KUTTIADY"
+    },
+    {
+      "value": "446",
+      "text": "KUTTIKANAM"
+    },
+    {
+      "value": "241",
+      "text": "KUTTIPPURAM"
+    },
+    {
+      "value": "1182",
+      "text": "KUTUPUZHA"
+    },
+    {
+      "value": "253",
+      "text": "KUZHALMANNAM"
+    },
+    {
+      "value": "1482",
+      "text": "KUZHITHURAI"
+    },
+    {
+      "value": "1310",
+      "text": "LAHA"
+    },
+    {
+      "value": "1554",
+      "text": "MACHIPLAV"
+    },
+    {
+      "value": "1467",
+      "text": "MACHUR"
+    },
+    {
+      "value": "745",
+      "text": "MADAPPEEDIKA"
+    },
+    {
+      "value": "225",
+      "text": "MADATHARA"
+    },
+    {
+      "value": "1268",
+      "text": "MADAVANA"
+    },
+    {
+      "value": "318",
+      "text": "MADAVOORPARA"
+    },
+    {
+      "value": "2127",
+      "text": "MADUKKARAI"
+    },
+    {
+      "value": "67",
+      "text": "MADURAI"
+    },
+    {
+      "value": "511",
+      "text": "MAHE"
+    },
+    {
+      "value": "609",
+      "text": "MAKKIYAD"
+    },
+    {
+      "value": "1458",
+      "text": "MAKKOOTTAM"
+    },
+    {
+      "value": "1188",
+      "text": "MALAKALLU"
+    },
+    {
+      "value": "70",
+      "text": "MALAPPURAM"
+    },
+    {
+      "value": "73",
+      "text": "MANANTHAVADY"
+    },
+    {
+      "value": "758",
+      "text": "MANARKADU"
+    },
+    {
+      "value": "76",
+      "text": "MANDIA"
+    },
+    {
+      "value": "1379",
+      "text": "MANGAD"
+    },
+    {
+      "value": "346",
+      "text": "MANGALAPURAM"
+    },
+    {
+      "value": "77",
+      "text": "MANGALORE"
+    },
+    {
+      "value": "586",
+      "text": "MANJAPARA"
+    },
+    {
+      "value": "464",
+      "text": "MANJERI"
+    },
+    {
+      "value": "1178",
+      "text": "MANNADY"
+    },
+    {
+      "value": "1092",
+      "text": "MANNANTHALA"
+    },
+    {
+      "value": "1176",
+      "text": "MANNARAKULANJI"
+    },
+    {
+      "value": "351",
+      "text": "MANNARKKAD"
+    },
+    {
+      "value": "926",
+      "text": "MANNARKULANJI"
+    },
+    {
+      "value": "1374",
+      "text": "MANNOOR"
+    },
+    {
+      "value": "251",
+      "text": "MANNUTHY"
+    },
+    {
+      "value": "79",
+      "text": "MARTHANDAM"
+    },
+    {
+      "value": "863",
+      "text": "MARTHANDOM"
+    },
+    {
+      "value": "371",
+      "text": "MATHILAKAM"
+    },
+    {
+      "value": "80",
+      "text": "MATTANNUR"
+    },
+    {
+      "value": "849",
+      "text": "MATTANNUR COURT"
+    },
+    {
+      "value": "1627",
+      "text": "MATTUKATTA"
+    },
+    {
+      "value": "81",
+      "text": "MATTUPETTY"
+    },
+    {
+      "value": "572",
+      "text": "MEDICAL COLLEGE"
+    },
+    {
+      "value": "329",
+      "text": "MEENAMGADI"
+    },
+    {
+      "value": "842",
+      "text": "MEENCHANTHA"
+    },
+    {
+      "value": "1464",
+      "text": "MOKERI"
+    },
+    {
+      "value": "662",
+      "text": "MONCOMBU"
+    },
+    {
+      "value": "1110",
+      "text": "MONDAYMARKET"
+    },
+    {
+      "value": "413",
+      "text": "MONIPPALLY"
+    },
+    {
+      "value": "83",
+      "text": "MOOLAMATTOM"
+    },
+    {
+      "value": "265",
+      "text": "MOOTHAKUNNAM"
+    },
+    {
+      "value": "89",
+      "text": "MOOVATTUPUZHA"
+    },
+    {
+      "value": "2116",
+      "text": "MUDAPPALLOOR"
+    },
+    {
+      "value": "1210",
+      "text": "MULAVANA"
+    },
+    {
+      "value": "87",
+      "text": "MUNDAKAYAM"
+    },
+    {
+      "value": "84",
+      "text": "MUNNAR"
+    },
+    {
+      "value": "255",
+      "text": "MURINGOOR JN"
+    },
+    {
+      "value": "854",
+      "text": "MURINJAPUZHA"
+    },
+    {
+      "value": "604",
+      "text": "MUTTOM"
+    },
+    {
+      "value": "686",
+      "text": "MUVATTUPUZHA"
+    },
+    {
+      "value": "1173",
+      "text": "MUZHIYAR"
+    },
+    {
+      "value": "90",
+      "text": "MYSORE"
+    },
+    {
+      "value": "555",
+      "text": "NADAKKAVU"
+    },
+    {
+      "value": "455",
+      "text": "NADAPURAM"
+    },
+    {
+      "value": "276",
+      "text": "NAGAPATANAM"
+    },
+    {
+      "value": "91",
+      "text": "NAGARCOVIL"
+    },
+    {
+      "value": "367",
+      "text": "NAGIARKULANGARA"
+    },
+    {
+      "value": "692",
+      "text": "NALANCHIRA"
+    },
+    {
+      "value": "1252",
+      "text": "NALLAMKANDY"
+    },
+    {
+      "value": "465",
+      "text": "NANGIARKULANGARA"
+    },
+    {
+      "value": "647",
+      "text": "NANJAMCODE"
+    },
+    {
+      "value": "540",
+      "text": "NATTUKAL"
+    },
+    {
+      "value": "1032",
+      "text": "NEDIYAVANCODE"
+    },
+    {
+      "value": "92",
+      "text": "NEDUMANGAD"
+    },
+    {
+      "value": "1415",
+      "text": "NEDUMBASSERY/ATHANI"
+    },
+    {
+      "value": "93",
+      "text": "NEDUMKANDAM"
+    },
+    {
+      "value": "783",
+      "text": "NEDUMUDY"
+    },
+    {
+      "value": "422",
+      "text": "NEELESWARAM"
+    },
+    {
+      "value": "1033",
+      "text": "NELLIMATTOM"
+    },
+    {
+      "value": "845",
+      "text": "NELLIMOODU"
+    },
+    {
+      "value": "558",
+      "text": "NEMOM"
+    },
+    {
+      "value": "372",
+      "text": "NENMARA"
+    },
+    {
+      "value": "516",
+      "text": "NERIYAMANGALAM"
+    },
+    {
+      "value": "95",
+      "text": "NEYYAR DAM"
+    },
+    {
+      "value": "96",
+      "text": "NEYYATTINKARA"
+    },
+    {
+      "value": "848",
+      "text": "NIDUMPOYIL"
+    },
+    {
+      "value": "1342",
+      "text": "NILAKAL"
+    },
+    {
+      "value": "97",
+      "text": "NILAMBOOR"
+    },
+    {
+      "value": "381",
+      "text": "NILAMEL"
+    },
+    {
+      "value": "2022",
+      "text": "NIMS"
+    },
+    {
+      "value": "1079",
+      "text": "NIRAVILPUZHA"
+    },
+    {
+      "value": "856",
+      "text": "NIRMALA CITY"
+    },
+    {
+      "value": "1205",
+      "text": "NOOLPUZHA"
+    },
+    {
+      "value": "1670",
+      "text": "NORTH VAZHAKULAM"
+    },
+    {
+      "value": "98",
+      "text": "NORTHPARAVOOR"
+    },
+    {
+      "value": "99",
+      "text": "OCHIRA"
+    },
+    {
+      "value": "1014",
+      "text": "ODAKKALI"
+    },
+    {
+      "value": "735",
+      "text": "ODAYANCHAL"
+    },
+    {
+      "value": "1197",
+      "text": "ODDANCHATHRAM"
+    },
+    {
+      "value": "100",
+      "text": "OOTY"
+    },
+    {
+      "value": "601",
+      "text": "PAINAVU"
+    },
+    {
+      "value": "1466",
+      "text": "PAKRANTHALAM"
+    },
+    {
+      "value": "101",
+      "text": "PALABS"
+    },
+    {
+      "value": "407",
+      "text": "PALACHIRA"
+    },
+    {
+      "value": "102",
+      "text": "PALAKKAD"
+    },
+    {
+      "value": "1030",
+      "text": "PALAKKUNNU"
+    },
+    {
+      "value": "335",
+      "text": "PALAMOOD"
+    },
+    {
+      "value": "104",
+      "text": "PALANI"
+    },
+    {
+      "value": "524",
+      "text": "PALAPETTY"
+    },
+    {
+      "value": "1459",
+      "text": "PALAVAYAL"
+    },
+    {
+      "value": "190",
+      "text": "PALLASSENA"
+    },
+    {
+      "value": "1134",
+      "text": "PALLATHURUTHY"
+    },
+    {
+      "value": "440",
+      "text": "PALLICKAL"
+    },
+    {
+      "value": "847",
+      "text": "PALLIKKUNNU"
+    },
+    {
+      "value": "1135",
+      "text": "PALLIKUTUMA"
+    },
+    {
+      "value": "1665",
+      "text": "PALLIMUKKU"
+    },
+    {
+      "value": "841",
+      "text": "PALLIMUKKU KLM"
+    },
+    {
+      "value": "105",
+      "text": "PALODE"
+    },
+    {
+      "value": "106",
+      "text": "PAMBA"
+    },
+    {
+      "value": "1398",
+      "text": "PAMBADUMPARA"
+    },
+    {
+      "value": "965",
+      "text": "PAMPADI"
+    },
+    {
+      "value": "1986",
+      "text": "PANAKKAPALA"
+    },
+    {
+      "value": "272",
+      "text": "PANAMARAM"
+    },
+    {
+      "value": "1189",
+      "text": "PANATHADY"
+    },
+    {
+      "value": "1005",
+      "text": "PANATHUR"
+    },
+    {
+      "value": "1289",
+      "text": "PANAVELI"
+    },
+    {
+      "value": "107",
+      "text": "PANDALAM"
+    },
+    {
+      "value": "2114",
+      "text": "PANDALAMPADAM"
+    },
+    {
+      "value": "403",
+      "text": "PANDIKKAD"
+    },
+    {
+      "value": "1646",
+      "text": "PANIKKANKUDY"
+    },
+    {
+      "value": "270",
+      "text": "PANOOR"
+    },
+    {
+      "value": "108",
+      "text": "PAPPANAMCODE"
+    },
+    {
+      "value": "527",
+      "text": "PARAPPANANGADI"
+    },
+    {
+      "value": "109",
+      "text": "PARASSALA"
+    },
+    {
+      "value": "110",
+      "text": "PARASSINIKADAV"
+    },
+    {
+      "value": "429",
+      "text": "PARAVOOR"
+    },
+    {
+      "value": "191",
+      "text": "PARAYAKADAV"
+    },
+    {
+      "value": "409",
+      "text": "PARAYIL JN"
+    },
+    {
+      "value": "323",
+      "text": "PARIPPALLY"
+    },
+    {
+      "value": "444",
+      "text": "PARIYARAM"
+    },
+    {
+      "value": "112",
+      "text": "PATHANAMTHITTA"
+    },
+    {
+      "value": "113",
+      "text": "PATHANAPURAM"
+    },
+    {
+      "value": "1454",
+      "text": "PATHAYAKKUNNU"
+    },
+    {
+      "value": "1010",
+      "text": "PATHIRAPALA"
+    },
+    {
+      "value": "217",
+      "text": "PATTAMBI"
+    },
+    {
+      "value": "899",
+      "text": "PATTIKKAD"
+    },
+    {
+      "value": "338",
+      "text": "PATTOM"
+    },
+    {
+      "value": "980",
+      "text": "PAYIPRA"
+    },
+    {
+      "value": "115",
+      "text": "PAYYANNUR"
+    },
+    {
+      "value": "547",
+      "text": "PAYYOLI"
+    },
+    {
+      "value": "1456",
+      "text": "PAZHASSI JN"
+    },
+    {
+      "value": "1461",
+      "text": "PAZHASSI ROAD"
+    },
+    {
+      "value": "2070",
+      "text": "PAZHAVEEDU"
+    },
+    {
+      "value": "117",
+      "text": "PENGAMUKKU"
+    },
+    {
+      "value": "1462",
+      "text": "PERINGATHUR"
+    },
+    {
+      "value": "119",
+      "text": "PERINTHALMANNA"
+    },
+    {
+      "value": "121",
+      "text": "PERUMBAVOOR"
+    },
+    {
+      "value": "934",
+      "text": "PERUMPILAVU"
+    },
+    {
+      "value": "1115",
+      "text": "PERUNADU"
+    },
+    {
+      "value": "1235",
+      "text": "PERUVANTHANAM"
+    },
+    {
+      "value": "959",
+      "text": "PEZHAKKAPILLY"
+    },
+    {
+      "value": "1632",
+      "text": "PHARMACY"
+    },
+    {
+      "value": "1447",
+      "text": "PILANKATTA"
+    },
+
+    {
+      "value": "515",
+      "text": "PIRAPPANCODE"
+    },
+    {
+      "value": "492",
+      "text": "PLAMOOD PATTOM"
+    },
+    {
+      "value": "1152",
+      "text": "PLAPALLY"
+    },
+    {
+      "value": "556",
+      "text": "PODIYADI"
+    },
+    {
+      "value": "505",
+      "text": "POINACHI"
+    },
+    {
+      "value": "123",
+      "text": "POLLACHI"
+    },
+    {
+      "value": "1762",
+      "text": "PONGA"
+    },
+    {
+      "value": "124",
+      "text": "PONKUNNAM"
+    },
+    {
+      "value": "463",
+      "text": "PONNAMVELY"
+    },
+    {
+      "value": "126",
+      "text": "PONNANI"
+    },
+    {
+      "value": "672",
+      "text": "POOCHAKKAL"
+    },
+    {
+      "value": "1174",
+      "text": "POOKKAD"
+    },
+    {
+      "value": "1246",
+      "text": "POOKKODE"
+    },
+    {
+      "value": "1465",
+      "text": "POOTHAMPARA"
+    },
+    {
+      "value": "548",
+      "text": "POOYAPPALLY"
+    },
+    {
+      "value": "1056",
+      "text": "POREDAM"
+    },
+    {
+      "value": "1479",
+      "text": "PUDUSSERY"
+    },
+    {
+      "value": "1399",
+      "text": "PULIYANMALA"
+    },
+    {
+      "value": "1444",
+      "text": "PULLUVAZHI"
+    },
+    {
+      "value": "129",
+      "text": "PUNALUR"
+    },
+    {
+      "value": "717",
+      "text": "PUTHENCRUZ"
+    },
+    {
+      "value": "365",
+      "text": "PUTHIYATHURA"
+    },
+    {
+      "value": "411",
+      "text": "PUTHOOR JN"
+    },
+    {
+      "value": "130",
+      "text": "PUTHUKKAD"
+    },
+    {
+      "value": "1664",
+      "text": "PUTHUKUNNU"
+    },
+    {
+      "value": "385",
+      "text": "PUTHUNAGARAM"
+    },
+    {
+      "value": "588",
+      "text": "PUTHUVAL"
+    },
+    {
+      "value": "1375",
+      "text": "PUTHUVELYIL"
+    },
+    {
+      "value": "328",
+      "text": "RAMANATTUKARA"
+    },
+    {
+      "value": "535",
+      "text": "RAMANKARY"
+    },
+    {
+      "value": "1437",
+      "text": "RANDATHANI"
+    },
+    {
+      "value": "131",
+      "text": "RANNI"
+    },
+    {
+      "value": "1271",
+      "text": "RAYILWAY JN KAZHZKOOTAM"
+    },
+    {
+      "value": "766",
+      "text": "SAKTHIKULANGARA"
+    },
+    {
+      "value": "458",
+      "text": "SANKARAMANGALAM"
+    },
+    {
+      "value": "341",
+      "text": "SANKARAMKULAM"
+    },
+    {
+      "value": "1154",
+      "text": "SASTHAMANGALAM"
+    },
+    {
+      "value": "1628",
+      "text": "SAVAKKOTTAPPALAM"
+    },
+    {
+      "value": "1140",
+      "text": "SEEMATTY"
+    },
+    {
+      "value": "133",
+      "text": "SELAM"
+    },
+    {
+      "value": "619",
+      "text": "SHORNUR"
+    },
+    {
+      "value": "476",
+      "text": "SL PURAM"
+    },
+    {
+      "value": "264",
+      "text": "SREEKANDAPURAM"
+    },
+    {
+      "value": "620",
+      "text": "SREEKARYAM"
+    },
+    {
+      "value": "1201",
+      "text": "STATE BORDER KL"
+    },
+    {
+      "value": "456",
+      "text": "STATE BORDER KN"
+    },
+    {
+      "value": "1202",
+      "text": "STATE BORDER TN"
+    },
+    {
+      "value": "137",
+      "text": "SUCHEENDRAM"
+    },
+    {
+      "value": "138",
+      "text": "SULTHAN BATHERY"
+    },
+    {
+      "value": "193",
+      "text": "THALAKKULAM"
+    },
+    {
+      "value": "140",
+      "text": "THALAPPADI"
+    },
+    {
+      "value": "141",
+      "text": "THALASSERY"
+    },
+    {
+      "value": "238",
+      "text": "THALIPARAMBA"
+    },
+    {
+      "value": "142",
+      "text": "THAMARASSERY"
+    },
+    {
+      "value": "275",
+      "text": "THANJAVUR"
+    },
+    {
+      "value": "194",
+      "text": "THEKKADI"
+    },
+    {
+      "value": "1798",
+      "text": "THENGANA"
+    },
+    {
+      "value": "280",
+      "text": "THENI"
+    },
+    {
+      "value": "145",
+      "text": "THENKASI"
+    },
+    {
+      "value": "294",
+      "text": "THENMALA"
+    },
+    {
+      "value": "147",
+      "text": "THIRUNELVELY"
+    },
+    {
+      "value": "149",
+      "text": "THIRUVAIRANIKKULAM"
+    },
+    {
+      "value": "150",
+      "text": "THIRUVALLA"
+    },
+    {
+      "value": "153",
+      "text": "THIRUVILVAMALA"
+    },
+    {
+      "value": "154",
+      "text": "THODUPUZHA"
+    },
+    {
+      "value": "860",
+      "text": "THOOKKUPALAM"
+    },
+    {
+      "value": "1463",
+      "text": "THOONERI"
+    },
+    {
+      "value": "563",
+      "text": "THOPPUMPADY"
+    },
+    {
+      "value": "564",
+      "text": "THOTTAPPALLY"
+    },
+    {
+      "value": "155",
+      "text": "THOTTILPALAM"
+    },
+    {
+      "value": "274",
+      "text": "THRICHY"
+    },
+    {
+      "value": "1614",
+      "text": "THRIPPALOOR"
+    },
+    {
+      "value": "1274",
+      "text": "THRIPPOONITHURA"
+    },
+    {
+      "value": "156",
+      "text": "THRISSUR"
+    },
+    {
+      "value": "139",
+      "text": "THUCKALAY"
+    },
+    {
+      "value": "259",
+      "text": "THURAVOOR"
+    },
+    {
+      "value": "484",
+      "text": "TIRUR"
+    },
+    {
+      "value": "1441",
+      "text": "TRIPPALUR"
+    },
+    {
+      "value": "733",
+      "text": "TRIPPARAPP"
+    },
+    {
+      "value": "544",
+      "text": "TRIPRAYAR"
+    },
+    {
+      "value": "216",
+      "text": "TRIPUNITHURA"
+    },
+    {
+      "value": "152",
+      "text": "TRIVANDRUM"
+    },
+    {
+      "value": "157",
+      "text": "TRIVANDRUM AIRPORT"
+    },
+    {
+      "value": "471",
+      "text": "UDIYANKULANGARA"
+    },
+    {
+      "value": "196",
+      "text": "UDUMALPET"
+    },
+    {
+      "value": "160",
+      "text": "UDUPI"
+    },
+    {
+      "value": "161",
+      "text": "UKKADOM"
+    },
+    {
+      "value": "1457",
+      "text": "ULIYIL"
+    },
+    {
+      "value": "358",
+      "text": "ULLOOR"
+    },
+    {
+      "value": "595",
+      "text": "UNIVERSITY"
+    },
+    {
+      "value": "243",
+      "text": "UNIVERSITY KKD"
+    },
+    {
+      "value": "1455",
+      "text": "URUVACHAL"
+    },
+    {
+      "value": "162",
+      "text": "VADAKARA"
+    },
+    {
+      "value": "163",
+      "text": "VADAKKAMCHERY"
+    },
+    {
+      "value": "545",
+      "text": "VADANAPALLY"
+    },
+    {
+      "value": "606",
+      "text": "VADASERIKKARA"
+    },
+    {
+      "value": "165",
+      "text": "VAIKOM"
+    },
+    {
+      "value": "213",
+      "text": "VALAKOM"
+    },
+    {
+      "value": "166",
+      "text": "VALANCHERY"
+    },
+    {
+      "value": "1473",
+      "text": "VALARA"
+    },
+    {
+      "value": "1610",
+      "text": "VALIYAKALAVOOR KSDP"
+    },
+    {
+      "value": "1752",
+      "text": "VALLIKKEZHU"
+    },
+    {
+      "value": "833",
+      "text": "VALLITHODE"
+    },
+    {
+      "value": "421",
+      "text": "VANDANAM"
+    },
+    {
+      "value": "195",
+      "text": "VANDITHAVALAM"
+    },
+    {
+      "value": "1042",
+      "text": "VANDOOR"
+    },
+    {
+      "value": "357",
+      "text": "VARAPUZHA"
+    },
+    {
+      "value": "167",
+      "text": "VARKALA"
+    },
+    {
+      "value": "168",
+      "text": "VARKALA TEMPLE"
+    },
+    {
+      "value": "296",
+      "text": "VATTAPPARA"
+    },
+    {
+      "value": "1196",
+      "text": "VAYAKKAL"
+    },
+    {
+      "value": "718",
+      "text": "VAZHAKULAM"
+    },
+    {
+      "value": "1594",
+      "text": "VAZHAPPALLY LPS"
+    },
+    {
+      "value": "170",
+      "text": "VAZHIKKADAV"
+    },
+    {
+      "value": "171",
+      "text": "VELAMKANNI"
+    },
+    {
+      "value": "1468",
+      "text": "VELLAL CP"
+    },
+    {
+      "value": "768",
+      "text": "VELLAMUNDA"
+    },
+    {
+      "value": "298",
+      "text": "VELLARVATTOM"
+    },
+    {
+      "value": "1440",
+      "text": "VEMBALLUR"
+    },
+    {
+      "value": "1448",
+      "text": "VEMBALLY NORTH JN"
+    },
+    {
+      "value": "340",
+      "text": "VEMBAYAM"
+    },
+    {
+      "value": "1226",
+      "text": "VENGAD"
+    },
+    {
+      "value": "174",
+      "text": "VENJARAMOOD"
+    },
+    {
+      "value": "657",
+      "text": "VETTICHIRA"
+    },
+    {
+      "value": "852",
+      "text": "VETTUVENNI"
+    },
+    {
+      "value": "244",
+      "text": "VIRAJPET"
+    },
+    {
+      "value": "1435",
+      "text": "VKPADY"
+    },
+    {
+      "value": "716",
+      "text": "VSSC ROAD"
+    },
+    {
+      "value": "143",
+      "text": "VYDYUTHI BHAVAN PATTOM"
+    },
+    {
+      "value": "1671",
+      "text": "VYTTILA"
+    },
+    {
+      "value": "1403",
+      "text": "VYTTILA HUB"
+    },
+    {
+      "value": "373",
+      "text": "WADAKKANCHERY"
+    },
+    {
+      "value": "705",
+      "text": "WALARDIE"
+    },
+    {
+      "value": "875",
+      "text": "WALAYAR RTO"
+    }
+  ]
