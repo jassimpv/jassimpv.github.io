@@ -8,7 +8,7 @@
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23020403'/%3E%3Cpath d='M14 46V18h7l11 15 11-15h7v28h-8V30L32 44 22 30v16z' fill='%237cff9d'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;family=JetBrains+Mono:wght@500;700&amp;display=swap" rel="stylesheet">
   <style>
     :root {
       --bg: #020403;
@@ -343,6 +343,8 @@
       background: var(--accent);
       box-shadow: 16px 0 var(--accent-2), 32px 0 var(--danger);
       margin-right: 38px;
+      font-size: 0;
+      line-height: 0;
     }
 
     .terminal-body {
@@ -428,6 +430,7 @@
     .about-grid,
     .work-grid,
     .skills-grid,
+    .github-grid,
     .instagram-grid,
     .insta-shot-grid,
     .project-grid,
@@ -582,6 +585,122 @@
 
     .project-grid {
       grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .github-grid {
+      grid-template-columns: minmax(0, 1fr) minmax(280px, 0.86fr);
+      align-items: stretch;
+    }
+
+    .github-card {
+      position: relative;
+      overflow: hidden;
+      min-height: 100%;
+      padding: 24px;
+      border: 1px solid rgba(124, 255, 157, 0.24);
+      background:
+        linear-gradient(135deg, rgba(0, 229, 255, 0.1), transparent 42%),
+        rgba(9, 16, 15, 0.76);
+      backdrop-filter: blur(20px);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.22);
+    }
+
+    .github-card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background: linear-gradient(120deg, transparent, rgba(124, 255, 157, 0.08), transparent);
+      transform: translateX(-100%);
+      transition: transform 650ms ease;
+    }
+
+    .github-card:hover::before {
+      transform: translateX(100%);
+    }
+
+    .github-card h3 {
+      position: relative;
+      z-index: 1;
+      margin-bottom: 18px;
+      font-size: 21px;
+    }
+
+    .github-stat-grid {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .github-stat-item {
+      min-height: 112px;
+      padding: 18px;
+      border: 1px solid rgba(124, 255, 157, 0.16);
+      background: rgba(124, 255, 157, 0.055);
+    }
+
+    .github-stat-item strong {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--accent);
+      font-size: clamp(28px, 5vw, 46px);
+      line-height: 1;
+    }
+
+    .github-stat-item span,
+    .language-row span {
+      color: var(--muted);
+      font-family: "JetBrains Mono", monospace;
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .github-language-list {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      gap: 14px;
+      margin-top: 4px;
+    }
+
+    .language-row {
+      display: grid;
+      gap: 8px;
+    }
+
+    .language-top {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .language-bar {
+      height: 8px;
+      border: 1px solid rgba(124, 255, 157, 0.18);
+      background: rgba(255, 255, 255, 0.06);
+      overflow: hidden;
+    }
+
+    .language-bar i {
+      display: block;
+      height: 100%;
+      width: var(--value);
+      font-size: 0;
+      line-height: 0;
+      background: linear-gradient(90deg, var(--accent), var(--accent-2));
+      box-shadow: 0 0 18px rgba(124, 255, 157, 0.28);
+    }
+
+    .github-actions {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 18px;
     }
 
     .instagram-grid {
@@ -957,6 +1076,7 @@
     @media (max-width: 980px) {
       .hero-grid,
       .about-grid,
+      .github-grid,
       .instagram-grid,
       .contact-panel {
         grid-template-columns: 1fr;
@@ -1032,6 +1152,7 @@
       .stats-strip,
       .work-grid,
       .skills-grid,
+      .github-grid,
       .insta-shot-grid,
       .project-grid,
       .posts-grid,
@@ -1068,6 +1189,10 @@
       .instagram-meta {
         grid-template-columns: 1fr;
       }
+
+      .github-stat-grid {
+        grid-template-columns: 1fr;
+      }
     }
 
     @media (prefers-reduced-motion: reduce) {
@@ -1096,6 +1221,7 @@
         <a href="#work">Experience</a>
         <a href="#skills">Skills</a>
         <a href="#profile">Profile</a>
+        <a href="#github">GitHub</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
       </div>
@@ -1107,11 +1233,12 @@
       <div class="hero-grid">
         <div class="reveal">
           <p class="eyebrow">Mobile Developer</p>
-          <h1><span class="glitch" data-text="MOHAMMED JASSIM">MOHAMMED JASSIM</span></h1>
+          <h1><span class="glitch" data-text="Mohammed Jassim">Mohammed Jassim</span></h1>
           <p class="lead">Experienced Mobile and Web Developer<br>Expert in Flutter<br>Focused on Building Easy-to-Use<br>and Smooth Digital Apps</p>
           <div class="cta-row">
             <a class="button primary" href="Jassimpv.pdf" target="_blank" rel="noopener">Download Resume</a>
             <a class="button" href="https://medium.com/@pv.jassim" target="_blank" rel="noopener">Medium Profile</a>
+            <a class="button" href="https://github.com/jassimpv" target="_blank" rel="noopener">GitHub</a>
             <a class="button" href="https://instagram.com/jassimpv" target="_blank" rel="noopener">Instagram</a>
           </div>
         </div>
@@ -1120,7 +1247,7 @@
             <img src="images/mobile-dev-hero.png" alt="Futuristic mobile app development workspace with glowing app interface panels">
           </figure>
           <aside class="terminal-card" aria-label="Developer summary">
-            <div class="terminal-top"><span class="dot"></span>profile.run</div>
+            <div class="terminal-top"><span class="dot" aria-hidden="true">&nbsp;</span>profile.run</div>
             <div class="terminal-body">
               <div><span class="prompt">$</span> role --current</div>
               <div>Flutter Developer<br>Emirates Foundation</div>
@@ -1295,6 +1422,52 @@
       </div>
     </section>
 
+    <section id="github" class="shell">
+      <div class="section-head reveal">
+        <div>
+          <p class="kicker">GitHub Stats</p>
+          <h2>Open-source activity and language mix.</h2>
+        </div>
+        <p class="section-copy">Live cards from the public GitHub profile, reflecting repositories, commits, pull requests, and the languages used most often.</p>
+      </div>
+      <div class="github-grid">
+        <article class="github-card reveal">
+          <h3>Profile metrics</h3>
+          <div class="github-stat-grid" aria-label="GitHub profile statistics">
+            <div class="github-stat-item">
+              <strong data-github-stat="public_repos">--</strong>
+              <span>Public repos</span>
+            </div>
+            <div class="github-stat-item">
+              <strong data-github-stat="stars">--</strong>
+              <span>Total stars</span>
+            </div>
+            <div class="github-stat-item">
+              <strong data-github-stat="followers">--</strong>
+              <span>Followers</span>
+            </div>
+            <div class="github-stat-item">
+              <strong data-github-stat="following">--</strong>
+              <span>Following</span>
+            </div>
+          </div>
+          <div class="github-actions">
+            <a class="button primary" href="https://github.com/jassimpv" target="_blank" rel="noopener">Open GitHub</a>
+            <a class="button" href="https://github.com/jassimpv?tab=repositories" target="_blank" rel="noopener">Repositories</a>
+          </div>
+        </article>
+        <article class="github-card compact reveal">
+          <h3>Top languages</h3>
+          <div class="github-language-list" data-github-languages aria-label="Top GitHub languages">
+            <div class="language-row">
+              <div class="language-top"><span>Loading</span><span>--</span></div>
+            <div class="language-bar"><i style="--value: 0%">&nbsp;</i></div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
     <section id="projects" class="shell">
       <div class="section-head reveal">
         <div>
@@ -1445,7 +1618,7 @@
       ctx.fillStyle = "rgba(2, 4, 3, 0.12)";
       ctx.fillRect(0, 0, window.innerWidth, window.innerHeight);
       ctx.font = "12px JetBrains Mono, monospace";
-      ctx.fillStyle = "rgba(124,255,157,0.42)";
+      ctx.fillStyle = "rgba(0,229,255,0.48)";
       columns.forEach((y, index) => {
         const text = chars[Math.floor(Math.random() * chars.length)];
         const x = index * 18;
@@ -1491,6 +1664,73 @@
     }, { threshold: 0.8 });
 
     document.querySelectorAll("[data-count]").forEach((stat) => statObserver.observe(stat));
+
+    async function loadGitHubStats() {
+      const username = "jassimpv";
+      const statNodes = document.querySelectorAll("[data-github-stat]");
+      const languageList = document.querySelector("[data-github-languages]");
+      if (!statNodes.length || !languageList) return;
+
+      const formatNumber = (value) => new Intl.NumberFormat("en", { notation: value > 999 ? "compact" : "standard" }).format(value);
+      const setStat = (key, value) => {
+        const node = document.querySelector(`[data-github-stat="${key}"]`);
+        if (node) node.textContent = formatNumber(value);
+      };
+
+      try {
+        const profileResponse = await fetch(`https://api.github.com/users/${username}`);
+        if (!profileResponse.ok) throw new Error("GitHub profile request failed");
+        const profile = await profileResponse.json();
+
+        const pageCount = Math.max(1, Math.ceil(profile.public_repos / 100));
+        const repoRequests = Array.from({ length: pageCount }, (_, index) =>
+          fetch(`https://api.github.com/users/${username}/repos?per_page=100&page=${index + 1}&sort=updated`)
+            .then((response) => {
+              if (!response.ok) throw new Error("GitHub repo request failed");
+              return response.json();
+            })
+        );
+        const repos = (await Promise.all(repoRequests)).flat();
+
+        const totalStars = repos.reduce((sum, repo) => sum + repo.stargazers_count, 0);
+        const languages = repos.reduce((items, repo) => {
+          if (!repo.language) return items;
+          items[repo.language] = (items[repo.language] || 0) + 1;
+          return items;
+        }, {});
+        const topLanguages = Object.entries(languages)
+          .sort((a, b) => b[1] - a[1])
+          .slice(0, 5);
+        const maxLanguageCount = Math.max(...topLanguages.map(([, count]) => count), 1);
+
+        setStat("public_repos", profile.public_repos);
+        setStat("stars", totalStars);
+        setStat("followers", profile.followers);
+        setStat("following", profile.following);
+
+        languageList.innerHTML = topLanguages.map(([language, count]) => {
+          const width = Math.max(8, Math.round((count / maxLanguageCount) * 100));
+          return `
+            <div class="language-row">
+              <div class="language-top"><span>${language}</span><span>${count} repos</span></div>
+              <div class="language-bar"><i style="--value: ${width}%">&nbsp;</i></div>
+            </div>
+          `;
+        }).join("");
+      } catch (error) {
+        statNodes.forEach((node) => {
+          node.textContent = "Live";
+        });
+        languageList.innerHTML = `
+          <div class="language-row">
+            <div class="language-top"><span>GitHub API</span><span>Unavailable</span></div>
+            <div class="language-bar"><i style="--value: 100%">&nbsp;</i></div>
+          </div>
+        `;
+      }
+    }
+
+    loadGitHubStats();
   </script>
 </body>
 </html>
