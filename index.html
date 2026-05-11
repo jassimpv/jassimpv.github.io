@@ -1,1 +1,1496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mohammed Jassim PV - Mobile and web developer, Flutter expert, and team lead based in Abu Dhabi.">
+  <title>Mohammed Jassim PV | Mobile Developer</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23020403'/%3E%3Cpath d='M14 46V18h7l11 15 11-15h7v28h-8V30L32 44 22 30v16z' fill='%237cff9d'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #020403;
+      --panel: rgba(9, 16, 15, 0.78);
+      --panel-strong: rgba(13, 25, 22, 0.94);
+      --line: rgba(145, 255, 194, 0.18);
+      --muted: #9eb4ac;
+      --text: #f2fff8;
+      --accent: #7cff9d;
+      --accent-2: #00e5ff;
+      --danger: #ff4d7d;
+      --shadow: 0 24px 70px rgba(0, 0, 0, 0.55);
+    }
 
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 12% 10%, rgba(0, 229, 255, 0.12), transparent 28rem),
+        radial-gradient(circle at 85% 0%, rgba(124, 255, 157, 0.14), transparent 30rem),
+        linear-gradient(180deg, #020403 0%, #06100d 52%, #020403 100%);
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: -3;
+      background-image:
+        linear-gradient(rgba(124, 255, 157, 0.055) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(124, 255, 157, 0.055) 1px, transparent 1px);
+      background-size: 64px 64px;
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,0.86), rgba(0,0,0,0.18));
+    }
+
+    body::after {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: -2;
+      pointer-events: none;
+      background: linear-gradient(rgba(255,255,255,0.035) 50%, rgba(0,0,0,0.04) 50%);
+      background-size: 100% 4px;
+      opacity: 0.28;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    .noise {
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      pointer-events: none;
+      opacity: 0.2;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 240 240' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23n)' opacity='.42'/%3E%3C/svg%3E");
+    }
+
+    #matrix {
+      position: fixed;
+      inset: 0;
+      z-index: -2;
+      width: 100%;
+      height: 100%;
+      opacity: 0.26;
+    }
+
+    .shell {
+      width: min(1180px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      backdrop-filter: blur(18px);
+      background: rgba(2, 4, 3, 0.72);
+      border-bottom: 1px solid rgba(124, 255, 157, 0.13);
+    }
+
+    .nav-inner {
+      min-height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 22px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 900;
+      letter-spacing: 0;
+    }
+
+    .brand-mark {
+      width: 38px;
+      height: 38px;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--line);
+      background: linear-gradient(145deg, rgba(124,255,157,0.22), rgba(0,229,255,0.08));
+      color: var(--accent);
+      font-family: "JetBrains Mono", monospace;
+      box-shadow: 0 0 28px rgba(124, 255, 157, 0.2);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .nav-links a {
+      padding: 10px 12px;
+      border: 1px solid transparent;
+      transition: 180ms ease;
+    }
+
+    .nav-links a:hover {
+      color: var(--text);
+      border-color: var(--line);
+      background: rgba(124, 255, 157, 0.07);
+    }
+
+    .hero {
+      position: relative;
+      min-height: calc(100vh - 72px);
+      display: grid;
+      align-items: center;
+      padding: 72px 0 52px;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(300px, 0.95fr);
+      gap: 48px;
+      align-items: center;
+    }
+
+    .hero-grid > * {
+      min-width: 0;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 20px;
+      color: var(--accent);
+      font-family: "JetBrains Mono", monospace;
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 36px;
+      height: 1px;
+      background: var(--accent);
+      box-shadow: 0 0 16px var(--accent);
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin-top: 0;
+    }
+
+    h1 {
+      margin-bottom: 22px;
+      max-width: 850px;
+      font-size: clamp(42px, 7vw, 96px);
+      line-height: 0.9;
+      letter-spacing: 0;
+      font-weight: 900;
+    }
+
+    .glitch {
+      position: relative;
+      display: inline-block;
+      max-width: 100%;
+      text-shadow: 0 0 24px rgba(124, 255, 157, 0.22);
+    }
+
+    .glitch::before,
+    .glitch::after {
+      content: attr(data-text);
+      position: absolute;
+      inset: 0;
+      opacity: 0.55;
+      pointer-events: none;
+    }
+
+    .glitch::before {
+      transform: translate(2px, -1px);
+      color: var(--accent-2);
+      clip-path: inset(0 0 58% 0);
+      animation: glitch 3.8s infinite linear alternate-reverse;
+    }
+
+    .glitch::after {
+      transform: translate(-2px, 1px);
+      color: var(--danger);
+      clip-path: inset(58% 0 0 0);
+      animation: glitch 2.7s infinite linear alternate;
+    }
+
+    .lead {
+      max-width: 680px;
+      color: #c4d8d1;
+      font-size: clamp(18px, 2.2vw, 24px);
+      line-height: 1.55;
+      margin-bottom: 30px;
+      overflow-wrap: anywhere;
+    }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      align-items: center;
+    }
+
+    .button {
+      position: relative;
+      z-index: 1;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0 18px;
+      border: 1px solid var(--line);
+      background: rgba(124, 255, 157, 0.08);
+      color: var(--text);
+      font-weight: 800;
+      transition: transform 180ms ease, border-color 180ms ease, background 180ms ease, box-shadow 180ms ease;
+    }
+
+    .button.primary {
+      background: var(--accent);
+      color: #021006;
+      border-color: var(--accent);
+      box-shadow: 0 0 32px rgba(124, 255, 157, 0.22);
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+      border-color: rgba(124, 255, 157, 0.72);
+      background: rgba(124, 255, 157, 0.15);
+    }
+
+    .button.primary:hover {
+      background: #a7ffbd;
+    }
+
+    .hero-visual {
+      position: relative;
+      min-height: 570px;
+    }
+
+    .portrait-card {
+      position: absolute;
+      inset: 52px 0 auto auto;
+      width: min(440px, 100%);
+      padding: 14px;
+      border: 1px solid rgba(124, 255, 157, 0.25);
+      background: linear-gradient(180deg, rgba(13, 25, 22, 0.92), rgba(5, 10, 9, 0.9));
+      box-shadow: var(--shadow), 0 0 54px rgba(0, 229, 255, 0.12);
+      animation: float 7s ease-in-out infinite;
+    }
+
+    .portrait-card img {
+      width: 100%;
+      aspect-ratio: 1 / 1.06;
+      object-fit: cover;
+      filter: saturate(1.05) contrast(1.08);
+    }
+
+    .terminal-card {
+      position: absolute;
+      left: 0;
+      bottom: 24px;
+      width: min(380px, 88%);
+      max-width: 100%;
+      border: 1px solid rgba(0, 229, 255, 0.24);
+      background: rgba(1, 8, 8, 0.88);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .terminal-top {
+      height: 38px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 0 14px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      color: var(--muted);
+      font-family: "JetBrains Mono", monospace;
+      font-size: 12px;
+    }
+
+    .dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 16px 0 var(--accent-2), 32px 0 var(--danger);
+      margin-right: 38px;
+    }
+
+    .terminal-body {
+      padding: 18px;
+      font-family: "JetBrains Mono", monospace;
+      font-size: 13px;
+      line-height: 1.8;
+      color: #c9fff0;
+    }
+
+    .terminal-body div {
+      overflow-wrap: anywhere;
+    }
+
+    .prompt {
+      color: var(--accent);
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    .stats-strip {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      border: 1px solid var(--line);
+      background: rgba(9, 16, 15, 0.62);
+      backdrop-filter: blur(18px);
+      margin-bottom: 86px;
+    }
+
+    .stat {
+      padding: 24px;
+      border-right: 1px solid var(--line);
+    }
+
+    .stat:last-child {
+      border-right: 0;
+    }
+
+    .stat strong {
+      display: block;
+      color: var(--accent);
+      font-size: clamp(34px, 5vw, 56px);
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+
+    section {
+      padding: 88px 0;
+    }
+
+    .section-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 24px;
+      margin-bottom: 34px;
+    }
+
+    .kicker {
+      margin-bottom: 10px;
+      color: var(--accent-2);
+      font-family: "JetBrains Mono", monospace;
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      margin-bottom: 0;
+      font-size: clamp(32px, 4vw, 56px);
+      line-height: 1;
+      letter-spacing: 0;
+    }
+
+    .section-copy {
+      max-width: 520px;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    .about-grid,
+    .work-grid,
+    .skills-grid,
+    .instagram-grid,
+    .insta-shot-grid,
+    .project-grid,
+    .education-grid,
+    .posts-grid {
+      display: grid;
+      gap: 18px;
+    }
+
+    .about-grid {
+      grid-template-columns: 1fr 0.82fr;
+      align-items: stretch;
+    }
+
+    .panel,
+    .work-item,
+    .skill-card,
+    .project-card,
+    .edu-card,
+    .post-card {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      backdrop-filter: blur(20px);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.22);
+    }
+
+    .panel {
+      padding: 28px;
+    }
+
+    .panel p {
+      color: #c2d5ce;
+      line-height: 1.75;
+    }
+
+    .signal-list {
+      display: grid;
+      gap: 14px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .signal-list li {
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      color: var(--muted);
+    }
+
+    .signal-list li:last-child {
+      padding-bottom: 0;
+      border-bottom: 0;
+    }
+
+    .signal-list b {
+      color: var(--text);
+    }
+
+    .work-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .work-item {
+      position: relative;
+      padding: 26px;
+      overflow: hidden;
+    }
+
+    .work-item::before,
+    .project-card::before,
+    .skill-card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background: linear-gradient(120deg, transparent, rgba(124, 255, 157, 0.08), transparent);
+      transform: translateX(-100%);
+      transition: transform 650ms ease;
+    }
+
+    .work-item:hover::before,
+    .project-card:hover::before,
+    .skill-card:hover::before {
+      transform: translateX(100%);
+    }
+
+    .work-item time {
+      display: inline-block;
+      margin-bottom: 12px;
+      color: var(--accent);
+      font-family: "JetBrains Mono", monospace;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .work-item h3,
+    .skill-card h3,
+    .project-card h3,
+    .edu-card h3,
+    .post-card h3 {
+      margin-bottom: 12px;
+      font-size: 21px;
+    }
+
+    .work-item p,
+    .skill-card p,
+    .project-card p,
+    .edu-card p,
+    .post-card p {
+      color: var(--muted);
+      line-height: 1.65;
+      margin-bottom: 0;
+    }
+
+    .skills-grid {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .skill-card {
+      position: relative;
+      min-height: 210px;
+      padding: 24px;
+      overflow: hidden;
+    }
+
+    .skill-index {
+      color: var(--accent-2);
+      font-family: "JetBrains Mono", monospace;
+      font-size: 12px;
+      font-weight: 800;
+      margin-bottom: 52px;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 18px;
+    }
+
+    .tag {
+      border: 1px solid rgba(124, 255, 157, 0.2);
+      background: rgba(124, 255, 157, 0.07);
+      color: #d9ffe4;
+      padding: 7px 9px;
+      font-size: 12px;
+      font-family: "JetBrains Mono", monospace;
+    }
+
+    .project-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .instagram-grid {
+      grid-template-columns: minmax(280px, 0.9fr) minmax(0, 1.1fr);
+      align-items: stretch;
+    }
+
+    .instagram-card {
+      position: relative;
+      overflow: hidden;
+      min-height: 430px;
+      padding: 28px;
+      border: 1px solid rgba(124, 255, 157, 0.26);
+      background:
+        linear-gradient(145deg, rgba(0, 229, 255, 0.12), transparent 46%),
+        linear-gradient(180deg, rgba(13, 25, 22, 0.92), rgba(3, 7, 6, 0.94));
+      box-shadow: var(--shadow), inset 0 0 0 1px rgba(255,255,255,0.03);
+    }
+
+    .instagram-card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(transparent 0 48%, rgba(124,255,157,0.14) 49% 51%, transparent 52% 100%),
+        linear-gradient(90deg, transparent, rgba(0,229,255,0.16), transparent);
+      background-size: 100% 16px, 180% 100%;
+      mix-blend-mode: screen;
+      opacity: 0.28;
+      animation: scan 6s linear infinite;
+      pointer-events: none;
+    }
+
+    .instagram-avatar-wrap {
+      position: relative;
+      width: min(220px, 64vw);
+      aspect-ratio: 1;
+      margin: 8px auto 26px;
+      display: grid;
+      place-items: center;
+    }
+
+    .instagram-avatar-wrap::before,
+    .instagram-avatar-wrap::after {
+      content: "";
+      position: absolute;
+      inset: -16px;
+      border: 1px solid rgba(124,255,157,0.28);
+      transform: rotate(8deg);
+      animation: spin 20s linear infinite;
+    }
+
+    .instagram-avatar-wrap::after {
+      inset: 10px;
+      border-color: rgba(0,229,255,0.22);
+      transform: rotate(-10deg);
+      animation-duration: 14s;
+      animation-direction: reverse;
+    }
+
+    .instagram-avatar {
+      position: relative;
+      z-index: 1;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border: 1px solid rgba(124,255,157,0.48);
+      filter: contrast(1.14) saturate(0.96);
+      box-shadow: 0 0 48px rgba(124,255,157,0.18), 0 0 80px rgba(0,229,255,0.1);
+    }
+
+    .instagram-card h3 {
+      position: relative;
+      z-index: 1;
+      margin-bottom: 10px;
+      font-size: 26px;
+    }
+
+    .instagram-card p {
+      position: relative;
+      z-index: 1;
+      color: #c4d8d1;
+      line-height: 1.65;
+      margin-bottom: 20px;
+    }
+
+    .instagram-meta {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin: 22px 0;
+      position: relative;
+      z-index: 1;
+    }
+
+    .instagram-meta span {
+      display: block;
+      padding: 12px 10px;
+      border: 1px solid rgba(124,255,157,0.16);
+      background: rgba(124,255,157,0.06);
+      color: var(--muted);
+      font-size: 12px;
+      text-align: center;
+    }
+
+    .instagram-meta b {
+      display: block;
+      color: var(--accent);
+      font-size: 20px;
+      margin-bottom: 2px;
+    }
+
+    .insta-shot-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      min-height: 430px;
+    }
+
+    .insta-shot {
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 430px;
+      padding: 24px;
+      border: 1px solid var(--line);
+      background:
+        linear-gradient(180deg, rgba(124,255,157,0.08), transparent 38%),
+        rgba(9, 16, 15, 0.78);
+      box-shadow: 0 20px 60px rgba(0,0,0,0.24);
+    }
+
+    .insta-shot img {
+      width: 112px;
+      height: 112px;
+      min-height: 0;
+      object-fit: cover;
+      border: 1px solid rgba(124,255,157,0.24);
+      filter: grayscale(0.35) contrast(1.14) saturate(1.1);
+      transform: none;
+    }
+
+    .insta-shot:nth-child(2) img {
+      filter: sepia(0.08) hue-rotate(92deg) saturate(1.45) contrast(1.12);
+      transform: none;
+    }
+
+    .insta-shot:nth-child(3) img {
+      filter: grayscale(0.1) hue-rotate(170deg) saturate(1.2) contrast(1.1);
+      transform: none;
+    }
+
+    .insta-shot::after {
+      content: attr(data-label);
+      position: absolute;
+      z-index: 2;
+      left: 24px;
+      top: 24px;
+      right: auto;
+      bottom: auto;
+      padding: 8px 10px;
+      border: 1px solid rgba(0,229,255,0.2);
+      background: rgba(2,4,3,0.78);
+      color: var(--accent-2);
+      font-family: "JetBrains Mono", monospace;
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+      backdrop-filter: blur(14px);
+    }
+
+    .insta-shot figure {
+      margin: 72px 0 0;
+    }
+
+    .insta-shot h3 {
+      margin: 72px 0 10px;
+      font-size: 22px;
+    }
+
+    .insta-shot p {
+      color: var(--muted);
+      line-height: 1.6;
+      margin: 0;
+    }
+
+    .insta-shot::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      background:
+        radial-gradient(circle at 50% 40%, transparent, rgba(2,4,3,0.48)),
+        linear-gradient(90deg, rgba(124,255,157,0.12), transparent, rgba(0,229,255,0.13));
+      pointer-events: none;
+      mix-blend-mode: screen;
+    }
+
+    .project-card {
+      position: relative;
+      overflow: hidden;
+      min-height: 100%;
+    }
+
+    .project-card img {
+      width: 100%;
+      aspect-ratio: 1.42 / 1;
+      object-fit: cover;
+      background: #07100d;
+      border-bottom: 1px solid var(--line);
+      filter: saturate(0.92) contrast(1.08);
+      transition: transform 500ms ease, filter 500ms ease;
+    }
+
+    .project-card:hover img {
+      transform: scale(1.045);
+      filter: saturate(1.15) contrast(1.08);
+    }
+
+    .project-card div {
+      padding: 22px;
+    }
+
+    .project-type {
+      display: inline-block;
+      margin-bottom: 12px;
+      color: var(--accent);
+      font-family: "JetBrains Mono", monospace;
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .posts-grid,
+    .education-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .post-card,
+    .edu-card {
+      padding: 24px;
+      min-height: 188px;
+      transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
+    }
+
+    .post-meta {
+      display: block;
+      margin-bottom: 14px;
+      color: var(--accent);
+      font-family: "JetBrains Mono", monospace;
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .post-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 18px;
+    }
+
+    .post-card:hover,
+    .edu-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(124, 255, 157, 0.55);
+      background: var(--panel-strong);
+    }
+
+    .contact {
+      padding-bottom: 40px;
+    }
+
+    .contact-panel {
+      position: relative;
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 30px;
+      align-items: center;
+      padding: clamp(28px, 5vw, 52px);
+      border: 1px solid rgba(124, 255, 157, 0.28);
+      background:
+        linear-gradient(120deg, rgba(124,255,157,0.16), transparent 42%),
+        rgba(4, 10, 9, 0.92);
+      box-shadow: var(--shadow);
+    }
+
+    .contact-panel::after {
+      content: "";
+      position: absolute;
+      right: -80px;
+      top: -80px;
+      width: 260px;
+      height: 260px;
+      border: 1px solid rgba(0, 229, 255, 0.25);
+      transform: rotate(18deg);
+      animation: spin 18s linear infinite;
+    }
+
+    .contact-panel h2 {
+      margin-bottom: 16px;
+    }
+
+    .contact-panel p {
+      max-width: 700px;
+      color: #c4d8d1;
+      line-height: 1.7;
+      margin-bottom: 0;
+    }
+
+    footer {
+      padding: 26px 0 42px;
+      color: var(--muted);
+      font-size: 14px;
+      border-top: 1px solid rgba(124, 255, 157, 0.13);
+    }
+
+    .footer-inner {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity 700ms ease, transform 700ms ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @keyframes glitch {
+      0%, 92%, 100% {
+        clip-path: inset(0 0 58% 0);
+      }
+      94% {
+        clip-path: inset(20% 0 34% 0);
+      }
+      96% {
+        clip-path: inset(64% 0 12% 0);
+      }
+      98% {
+        clip-path: inset(8% 0 76% 0);
+      }
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-16px);
+      }
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(378deg);
+      }
+    }
+
+    @keyframes scan {
+      to {
+        background-position: 0 160px, 180% 0;
+      }
+    }
+
+    @media (max-width: 980px) {
+      .hero-grid,
+      .about-grid,
+      .instagram-grid,
+      .contact-panel {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-visual {
+        min-height: 520px;
+      }
+
+      .work-grid,
+      .skills-grid,
+      .insta-shot-grid,
+      .project-grid,
+      .posts-grid,
+      .education-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 720px) {
+      .shell {
+        width: min(100% - 28px, 1180px);
+      }
+
+      .nav-inner {
+        min-height: 64px;
+      }
+
+      .nav-links {
+        display: none;
+      }
+
+      .hero {
+        padding-top: 44px;
+      }
+
+      h1 {
+        font-size: clamp(38px, 12vw, 50px);
+      }
+
+      .lead {
+        font-size: 18px;
+        width: calc(100vw - 28px);
+        max-width: calc(100vw - 28px);
+      }
+
+      .hero-grid {
+        gap: 28px;
+      }
+
+      .hero-grid > * {
+        max-width: calc(100vw - 28px);
+      }
+
+      .hero-visual {
+        min-height: 430px;
+      }
+
+      .portrait-card {
+        inset: 0 0 auto auto;
+        width: 88%;
+      }
+
+      .terminal-card {
+        width: 92%;
+        max-width: calc(100vw - 28px);
+      }
+
+      .terminal-body {
+        font-size: 12px;
+      }
+
+      .stats-strip,
+      .work-grid,
+      .skills-grid,
+      .insta-shot-grid,
+      .project-grid,
+      .posts-grid,
+      .education-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .stat {
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .stat:last-child {
+        border-bottom: 0;
+      }
+
+      .section-head {
+        display: block;
+      }
+
+      .section-copy {
+        margin-top: 16px;
+      }
+
+      section {
+        padding: 64px 0;
+      }
+
+      .instagram-card,
+      .insta-shot {
+        min-height: 320px;
+      }
+
+      .instagram-meta {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation: none !important;
+        transition: none !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <canvas id="matrix" aria-hidden="true"></canvas>
+  <div class="noise" aria-hidden="true"></div>
+
+  <nav class="nav">
+    <div class="shell nav-inner">
+      <a href="#top" class="brand" aria-label="Mohammed Jassim home">
+        <span class="brand-mark">MJ</span>
+        <span>Mohammed Jassim</span>
+      </a>
+      <div class="nav-links" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#work">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#profile">Profile</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="top">
+    <header class="hero shell">
+      <div class="hero-grid">
+        <div class="reveal">
+          <p class="eyebrow">Mobile Developer</p>
+          <h1><span class="glitch" data-text="MOHAMMED JASSIM">MOHAMMED JASSIM</span></h1>
+          <p class="lead">Experienced Mobile and Web Developer<br>Expert in Flutter<br>Focused on Building Easy-to-Use<br>and Smooth Digital Apps</p>
+          <div class="cta-row">
+            <a class="button primary" href="Jassimpv.pdf" target="_blank" rel="noopener">Download Resume</a>
+            <a class="button" href="https://medium.com/@pv.jassim" target="_blank" rel="noopener">Medium Profile</a>
+            <a class="button" href="https://instagram.com/jassimpv" target="_blank" rel="noopener">Instagram</a>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <figure class="portrait-card">
+            <img src="images/mobile-dev-hero.png" alt="Futuristic mobile app development workspace with glowing app interface panels">
+          </figure>
+          <aside class="terminal-card" aria-label="Developer summary">
+            <div class="terminal-top"><span class="dot"></span>profile.run</div>
+            <div class="terminal-body">
+              <div><span class="prompt">$</span> role --current</div>
+              <div>Flutter Developer<br>Emirates Foundation</div>
+              <div><span class="prompt">$</span> stack --core</div>
+              <div class="muted">Flutter / Dart / Firebase<br>Clean Architecture</div>
+              <div><span class="prompt">$</span> location</div>
+              <div>Abu Dhabi, UAE</div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </header>
+
+    <div class="shell stats-strip reveal" aria-label="Career highlights">
+      <div class="stat">
+        <strong data-count="3">0+</strong>
+        <span>Years Leadership</span>
+      </div>
+      <div class="stat">
+        <strong data-count="5">0+</strong>
+        <span>Years Experience</span>
+      </div>
+      <div class="stat">
+        <strong data-count="10">0+</strong>
+        <span>Major Projects</span>
+      </div>
+    </div>
+
+    <section id="about" class="shell">
+      <div class="section-head reveal">
+        <div>
+          <p class="kicker">About Me</p>
+          <h2>Building digital products that feel fast, clear, and reliable.</h2>
+        </div>
+        <p class="section-copy">A dedicated mobile and web application developer with full-stack awareness, team leadership experience, and a strong eye for polished user experience.</p>
+      </div>
+      <div class="about-grid">
+        <article class="panel reveal">
+          <p>I'm a dedicated mobile and web application developer with extensive experience in Flutter, creating cross-platform solutions that deliver exceptional user experiences. With expertise in full-stack development and team leadership, I bring both technical skills and project management capabilities to every challenge.</p>
+          <p>Based in Abu Dhabi, I'm passionate about leveraging cutting-edge technologies to solve complex problems and build intuitive applications that make a difference.</p>
+        </article>
+        <aside class="panel reveal">
+          <ul class="signal-list">
+            <li><b>Focus</b><span>Mobile and web apps</span></li>
+            <li><b>Primary stack</b><span>Flutter, Dart, Firebase</span></li>
+            <li><b>Architecture</b><span>MVC, MVVM, Bloc, Clean</span></li>
+            <li><b>Leadership</b><span>10 developer team</span></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="work" class="shell">
+      <div class="section-head reveal">
+        <div>
+          <p class="kicker">Work Experience</p>
+          <h2>From individual contributor to team lead.</h2>
+        </div>
+      </div>
+      <div class="work-grid">
+        <article class="work-item reveal">
+          <time>Feb 2025 - Present</time>
+          <h3>Flutter Developer | Emirates Foundation</h3>
+          <p>Contributed to developing innovative Flutter applications supporting social initiatives, focusing on user engagement and seamless performance. Collaborated closely with cross-functional teams to ensure project success.</p>
+        </article>
+        <article class="work-item reveal">
+          <time>Dec 2022 - Dec 2024</time>
+          <h3>Flutter Team Lead | Applaunch</h3>
+          <p>Led a team of 10 developers, managing the entire software development lifecycle from concept to deployment on Play Store and App Store. Implemented CI/CD pipelines and automated testing protocols, resulting in 30% faster development cycles.</p>
+        </article>
+        <article class="work-item reveal">
+          <time>2021 - 2022</time>
+          <h3>Flutter Developer | Grapes Innovation Solutions</h3>
+          <p>Developed and maintained cross-platform applications using Flutter, collaborating with backend teams to integrate APIs. Delivered 5 major applications with an average user rating of 4.8/5.</p>
+        </article>
+        <article class="work-item reveal">
+          <time>2020</time>
+          <h3>PHP Web Developer | Cignes Business Solutions</h3>
+          <p>Designed and maintained secure, scalable REST APIs. Implemented performance optimizations that reduced database query times by 40%.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="shell">
+      <div class="section-head reveal">
+        <div>
+          <p class="kicker">Technical Skills</p>
+          <h2>Production stack with mobile-first depth.</h2>
+        </div>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <div class="skill-index">01</div>
+          <h3>Mobile Development</h3>
+          <div class="tags">
+            <span class="tag">Flutter/Dart Expert</span>
+            <span class="tag">Kotlin Proficient</span>
+            <span class="tag">Swift Familiar</span>
+          </div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="skill-index">02</div>
+          <h3>Web Technologies</h3>
+          <div class="tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">PHP</span>
+          </div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="skill-index">03</div>
+          <h3>Backend & Database</h3>
+          <div class="tags">
+            <span class="tag">Firebase</span>
+            <span class="tag">SQL</span>
+            <span class="tag">REST APIs</span>
+          </div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="skill-index">04</div>
+          <h3>Tools & Frameworks</h3>
+          <div class="tags">
+            <span class="tag">GitHub</span>
+            <span class="tag">Bitbucket</span>
+            <span class="tag">Jira</span>
+            <span class="tag">Clean Architecture</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="profile" class="shell">
+      <div class="section-head reveal">
+        <div>
+          <p class="kicker">Profile</p>
+          <h2>Mobile-first engineer with team-lead delivery.</h2>
+        </div>
+        <p class="section-copy">A practical mix of Flutter expertise, product thinking, backend awareness, and release ownership across mobile and web projects.</p>
+      </div>
+      <div class="instagram-grid">
+        <article class="instagram-card reveal">
+          <h3>Mohammed Jassim PV</h3>
+          <p>Flutter Developer and former Flutter Team Lead based in Abu Dhabi, focused on building smooth, scalable apps with clean architecture and reliable release pipelines.</p>
+          <div class="instagram-meta" aria-label="Professional profile stats">
+            <span><b>5+</b>Years Experience</span>
+            <span><b>3+</b>Years Leadership</span>
+            <span><b>10</b>Developers Led</span>
+          </div>
+          <a class="button primary" href="https://linkedin.com/in/mohammedjassimpv" target="_blank" rel="noopener">Open Profile</a>
+        </article>
+        <div class="insta-shot-grid reveal" aria-label="Professional highlights">
+          <article class="insta-shot" data-label="Mobile">
+            <div>
+              <h3>Cross-platform apps</h3>
+              <p>Flutter and Dart development across Android, iOS, and web, with attention to performance, responsive UI, and maintainable structure.</p>
+            </div>
+          </article>
+          <article class="insta-shot" data-label="Lead">
+            <div>
+              <h3>Delivery leadership</h3>
+              <p>Led a 10-member Flutter team through planning, development, testing, CI/CD, and Play Store/App Store release cycles.</p>
+            </div>
+          </article>
+          <article class="insta-shot" data-label="Stack">
+            <div>
+              <h3>Full-stack awareness</h3>
+              <p>Comfortable with Firebase, REST APIs, SQL, PHP, Node.js, and the backend details that make mobile products dependable.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="shell">
+      <div class="section-head reveal">
+        <div>
+          <p class="kicker">Projects</p>
+          <h2>Selected web and mobile work.</h2>
+        </div>
+        <p class="section-copy">A mix of shipped websites, enterprise tools, and mobile products built with user experience and reliability in mind.</p>
+      </div>
+      <div class="project-grid">
+        <a class="project-card reveal" href="https://smartwingsautofix.com/" target="_blank" rel="noopener">
+          <img src="https://cdn.gamma.app/0tq41f2mt3hiqbw/9da0fd8c3eeb4a8ab6ce81e2577b2d31/original/Screenshot-2025-09-30-at-11.29.04-AM-front.png" alt="Smart Wings website preview">
+          <div>
+            <span class="project-type">Web</span>
+            <h3>SMART WINGS</h3>
+            <p>Automotive service web experience with a polished front-facing interface.</p>
+          </div>
+        </a>
+        <article class="project-card reveal">
+          <img src="https://cdn.gamma.app/0tq41f2mt3hiqbw/50000f662fe34f659c4f18e4af1ce6fd/original/Screenshot-2025-09-30-at-11.36.56-AM-front.png" alt="Blue Ocean project preview">
+          <div>
+            <span class="project-type">Web</span>
+            <h3>Blue Ocean</h3>
+            <p>Responsive web product with clean presentation and business-focused flows.</p>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <img src="https://cdn.gamma.app/0tq41f2mt3hiqbw/ff121d7c1dc446c9a2906a9b91c5d340/original/Screenshot-2025-09-30-at-11.42.37-AM-front.png" alt="Wisma project preview">
+          <div>
+            <span class="project-type">Web</span>
+            <h3>WISMA</h3>
+            <p>Modern website build with structured content and refined responsive layouts.</p>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <img src="https://cdn.gamma.app/0tq41f2mt3hiqbw/generated-images/e25YfYPs_n4Dh-zMMuvdF.png" alt="Primion mobile app concept">
+          <div>
+            <span class="project-type">Mobile</span>
+            <h3>Primion</h3>
+            <p>Mobile application work focused on efficient cross-platform delivery.</p>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <img src="https://cdn.gamma.app/0tq41f2mt3hiqbw/generated-images/zic6nRl2_0qM-30myIsnX.png" alt="Grapes MIS Live mobile app concept">
+          <div>
+            <span class="project-type">Mobile</span>
+            <h3>Grapes MIS Live</h3>
+            <p>Management information system experience built for mobile workflows.</p>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <img src="https://cdn.gamma.app/0tq41f2mt3hiqbw/generated-images/aUmq5GTJTFczdeAHHNubz.png" alt="Doctor-G mobile app concept">
+          <div>
+            <span class="project-type">Mobile</span>
+            <h3>Doctor-G</h3>
+            <p>Healthcare-oriented mobile app experience with practical service flows.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="posts" class="shell">
+      <div class="section-head reveal">
+        <div>
+          <p class="kicker">Latest Medium Posts</p>
+          <h2>Flutter notes from real app work.</h2>
+        </div>
+        <a class="button" href="https://medium.com/@pv.jassim" target="_blank" rel="noopener">See all posts</a>
+      </div>
+      <div class="posts-grid">
+        <a class="post-card reveal" href="https://medium.com/@pv.jassim" target="_blank" rel="noopener">
+          <h3>How to Handle No Internet Screen Connection in Flutter 2025</h3>
+          <p>Practical UX patterns for connection-aware Flutter applications.</p>
+        </a>
+        <a class="post-card reveal" href="https://medium.com/@pv.jassim" target="_blank" rel="noopener">
+          <h3>Stop Using .env in Flutter - Use --dart-define Instead</h3>
+          <p>A cleaner approach to environment configuration in Flutter builds.</p>
+        </a>
+        <a class="post-card reveal" href="https://medium.com/@pv.jassim" target="_blank" rel="noopener">
+          <h3>Push Notifications in Flutter with Firebase and Local Notifications</h3>
+          <p>A 2025 guide for reliable notification behavior across app states.</p>
+        </a>
+      </div>
+    </section>
+
+    <section id="education" class="shell">
+      <div class="section-head reveal">
+        <div>
+          <p class="kicker">Education</p>
+          <h2>Computer science foundation plus hardware product design.</h2>
+        </div>
+      </div>
+      <div class="education-grid">
+        <article class="edu-card reveal">
+          <h3>Master of Computer Applications</h3>
+          <p>Hindusthan Arts and Sciences College (2019-2021)</p>
+        </article>
+        <article class="edu-card reveal">
+          <h3>Bachelor of Computer Applications</h3>
+          <p>KG Arts and Sciences College (2016-2019)</p>
+        </article>
+        <article class="edu-card reveal">
+          <h3>Diploma in Hardware/AIoT Product Design</h3>
+          <p>Forge Accelerator (2018)</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="shell contact">
+      <div class="contact-panel reveal">
+        <div>
+          <p class="kicker">Let's Connect</p>
+          <h2>Open to new opportunities and collaborations.</h2>
+          <p>I'm currently open to new opportunities and collaborations. Feel free to reach out via email, LinkedIn, Medium, or Instagram.</p>
+        </div>
+        <div class="cta-row">
+          <a class="button primary" href="mailto:jassimpv@live.com">Email Me</a>
+          <a class="button" href="https://linkedin.com/in/mohammedjassimpv" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-inner">
+      <span>(c) 2025 Mohammed Jassim PV. All rights reserved.</span>
+      <span>Made with HTML, CSS, and motion.</span>
+    </div>
+  </footer>
+
+  <script>
+    const canvas = document.getElementById("matrix");
+    const ctx = canvas.getContext("2d");
+    const chars = "Flutter Dart Firebase API UI 010101".split("");
+    let columns = [];
+
+    function sizeCanvas() {
+      const ratio = window.devicePixelRatio || 1;
+      canvas.width = Math.floor(window.innerWidth * ratio);
+      canvas.height = Math.floor(window.innerHeight * ratio);
+      canvas.style.width = window.innerWidth + "px";
+      canvas.style.height = window.innerHeight + "px";
+      ctx.setTransform(ratio, 0, 0, ratio, 0, 0);
+      const count = Math.floor(window.innerWidth / 18);
+      columns = Array.from({ length: count }, () => Math.random() * window.innerHeight);
+    }
+
+    function drawMatrix() {
+      ctx.fillStyle = "rgba(2, 4, 3, 0.12)";
+      ctx.fillRect(0, 0, window.innerWidth, window.innerHeight);
+      ctx.font = "12px JetBrains Mono, monospace";
+      ctx.fillStyle = "rgba(124,255,157,0.42)";
+      columns.forEach((y, index) => {
+        const text = chars[Math.floor(Math.random() * chars.length)];
+        const x = index * 18;
+        ctx.fillText(text, x, y);
+        columns[index] = y > window.innerHeight + Math.random() * 900 ? 0 : y + 18;
+      });
+      requestAnimationFrame(drawMatrix);
+    }
+
+    sizeCanvas();
+    drawMatrix();
+    window.addEventListener("resize", sizeCanvas);
+
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.16 });
+
+    document.querySelectorAll(".reveal").forEach((item) => revealObserver.observe(item));
+
+    const statObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const stat = entry.target;
+        const target = Number(stat.dataset.count);
+        const start = performance.now();
+        const duration = 900;
+
+        function update(now) {
+          const progress = Math.min((now - start) / duration, 1);
+          const value = Math.round(target * (1 - Math.pow(1 - progress, 3)));
+          stat.textContent = value + "+";
+          if (progress < 1) requestAnimationFrame(update);
+        }
+
+        requestAnimationFrame(update);
+        statObserver.unobserve(stat);
+      });
+    }, { threshold: 0.8 });
+
+    document.querySelectorAll("[data-count]").forEach((stat) => statObserver.observe(stat));
+  </script>
+</body>
+</html>
