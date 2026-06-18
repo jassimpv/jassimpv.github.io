@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Kalayana Expense Tracker - Wedding Budget & Reminder App</title>
-<meta name="description" content="Kalayana Expense Tracker is a Firebase-ready app to plan your wedding budget, track expenses, manage reminders, and keep your guest invites organized in one place.">
+<meta name="description" content="Kalayana Expense Tracker is a cloud-synced app to plan your wedding budget, track expenses, manage reminders, and keep your guest invites organized in one place.">
 <meta property="og:title" content="Kalayana Expense Tracker">
 <meta property="og:description" content="Plan your wedding budget, track every expense, and never miss a reminder with Kalayana Expense Tracker.">
 <meta property="og:image" content="https://jassimpv.github.io/kalayana-expenses/images/logo.png">
@@ -57,8 +57,22 @@
   .badge-row {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 16px;
     flex-wrap: wrap;
+  }
+  .store-badge {
+    display: inline-flex;
+    align-items: center;
+    height: 54px;
+    transition: transform 0.15s ease, opacity 0.15s ease;
+  }
+  .store-badge img { height: 100%; }
+  .store-badge:hover { transform: translateY(-2px); }
+  .store-badge.disabled {
+    opacity: 0.45;
+    cursor: default;
+    pointer-events: none;
   }
   .btn {
     display: inline-flex;
@@ -72,22 +86,11 @@
     transition: transform 0.15s ease, opacity 0.15s ease;
   }
   .btn:hover { transform: translateY(-2px); }
-  .btn-primary {
-    background: var(--gold);
-    color: #1a1108;
-  }
   .btn-secondary {
     background: rgba(255,255,255,0.08);
     color: var(--text);
     border: 1px solid rgba(255,255,255,0.15);
   }
-  .btn-disabled {
-    background: rgba(255,255,255,0.05);
-    color: var(--muted);
-    border: 1px dashed rgba(255,255,255,0.18);
-    cursor: default;
-  }
-  .btn-disabled:hover { transform: none; }
   .web-hint {
     color: var(--muted);
     font-size: 0.82rem;
@@ -196,13 +199,17 @@
     <img src="images/logo.png" alt="Kalayana Expense Tracker logo" class="logo">
     <h1>Kalayana Expense Tracker</h1>
     <p class="tagline">
-      A Firebase-ready marriage expense, reminder, and invite tracker.
+      A secure, cloud-synced marriage expense, reminder, and invite tracker.
       Plan your wedding budget, log every expense, and keep your big day organized in one place.
     </p>
     <div class="badge-row">
-      <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.fueltech.kalyana_tracker">Get it on Google Play</a>
+      <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.fueltech.kalyana_tracker">
+        <img src="images/google-play-badge.png" alt="Get it on Google Play">
+      </a>
       <a class="btn btn-secondary" href="https://expense-tracker-20653.web.app" target="_blank" rel="noopener">Try it on Web ↗</a>
-      <span class="btn btn-disabled">iOS &middot; Coming Soon</span>
+      <span class="store-badge disabled" title="iOS · Coming Soon">
+        <img src="images/app-store-badge.svg" alt="Download on the App Store (coming soon)">
+      </span>
     </div>
     <p class="web-hint">Web version installs as an app &mdash; look for the install icon in your browser's address bar.</p>
   </div>
@@ -251,7 +258,7 @@
       <div class="card">
         <span class="icon">☁️</span>
         <h3>Synced & Secure</h3>
-        <p>Firebase-backed sync keeps your data safe and available across devices, signed in with your account.</p>
+        <p>Cloud sync keeps your data safe and available across devices, signed in with your account.</p>
       </div>
     </div>
   </div>
@@ -262,7 +269,9 @@
     <h2>Plan your wedding budget with confidence</h2>
     <p>Download Kalayana Expense Tracker and keep every expense, reminder, and invite in one organized place.</p>
     <div class="badge-row">
-      <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.fueltech.kalyana_tracker">Get it on Google Play</a>
+      <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.fueltech.kalyana_tracker">
+        <img src="images/google-play-badge.png" alt="Get it on Google Play">
+      </a>
       <a class="btn btn-secondary" href="https://expense-tracker-20653.web.app" target="_blank" rel="noopener">Try it on Web ↗</a>
     </div>
   </div>
