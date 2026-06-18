@@ -81,6 +81,36 @@
     color: var(--text);
     border: 1px solid rgba(255,255,255,0.15);
   }
+  .btn-disabled {
+    background: rgba(255,255,255,0.05);
+    color: var(--muted);
+    border: 1px dashed rgba(255,255,255,0.18);
+    cursor: default;
+  }
+  .btn-disabled:hover { transform: none; }
+
+  section.screenshots {
+    padding: 16px 0 56px;
+  }
+  .shot-scroller {
+    display: flex;
+    gap: 18px;
+    overflow-x: auto;
+    padding: 8px 24px 24px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+  .shot-scroller img {
+    flex: 0 0 auto;
+    width: 220px;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.08);
+    box-shadow: 0 16px 40px rgba(0,0,0,0.5);
+    scroll-snap-align: center;
+  }
+  @media (max-width: 600px) {
+    .shot-scroller img { width: 70vw; }
+  }
 
   section.features {
     padding: 56px 24px;
@@ -144,6 +174,14 @@
     font-size: 0.85rem;
   }
   footer a { text-decoration: underline; }
+
+  @media (max-width: 480px) {
+    header.hero { padding: 56px 16px 40px; }
+    h1 { font-size: 1.9rem; }
+    .tagline { font-size: 1rem; }
+    .btn { padding: 11px 18px; font-size: 0.9rem; }
+    section.features, section.cta { padding-left: 16px; padding-right: 16px; }
+  }
 </style>
 </head>
 <body>
@@ -158,10 +196,21 @@
     </p>
     <div class="badge-row">
       <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.fueltech.kalyana_tracker">Get it on Google Play</a>
-      <a class="btn btn-secondary" href="#features">See features</a>
+      <a class="btn btn-secondary" href="https://expense-tracker-20653.web.app">Try it on Web</a>
+      <span class="btn btn-disabled">iOS &middot; Coming Soon</span>
     </div>
   </div>
 </header>
+
+<section class="screenshots">
+  <div class="shot-scroller">
+    <img src="images/screenshot-login.png" alt="Kalayana Expense Tracker login screen" loading="lazy">
+    <img src="images/screenshot-overview.png" alt="Kalayana Expense Tracker wedding budget overview" loading="lazy">
+    <img src="images/screenshot-add-expense.png" alt="Kalayana Expense Tracker add expense screen" loading="lazy">
+    <img src="images/screenshot-reminders.png" alt="Kalayana Expense Tracker reminders screen" loading="lazy">
+    <img src="images/screenshot-shopping.png" alt="Kalayana Expense Tracker shopping list screen" loading="lazy">
+  </div>
+</section>
 
 <section class="features" id="features">
   <div class="wrap">
@@ -206,7 +255,10 @@
   <div class="wrap">
     <h2>Plan your wedding budget with confidence</h2>
     <p>Download Kalayana Expense Tracker and keep every expense, reminder, and invite in one organized place.</p>
-    <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.fueltech.kalyana_tracker">Get it on Google Play</a>
+    <div class="badge-row">
+      <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.fueltech.kalyana_tracker">Get it on Google Play</a>
+      <a class="btn btn-secondary" href="https://expense-tracker-20653.web.app">Try it on Web</a>
+    </div>
   </div>
 </section>
 
